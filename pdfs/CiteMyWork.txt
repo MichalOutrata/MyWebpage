@@ -1,34 +1,12 @@
-@Article{outrata2023spectral,
-  author  = {Gander, M. J. and Outrata, M.},
-  journal = {{L}inear {A}lgebra and its {A}pplications},
-  title   = {Spectral analysis of implicit 2 stage block {R}unge-{K}utta preconditioners},
-  year    = {2023},
-  groups  = {MyPublications},
-  url     = {https://doi.org/10.1016/j.laa.2023.07.008},
-}
-
-
-@PhdThesis{outrata2022phdthesis,
-  author    = {Outrata, M.},
-  title     = {Schwarz methods, {S}chur complements, preconditioning and numerical linear algebra},
-  year      = {2022},
-  address   = {University of {G}eneva, {M}ath {D}epartment},
-  groups    = {MyPublications},
-  publisher = {Rue de Conseil-General 2--4, Geneva 4, Switzerland},
-}
-
-
 @InProceedings{outrata2022onmras,
   author    = {Gander, M. J. and Outrata, M.},
   booktitle = {{D}omain {D}ecomposition {M}ethods in {S}cience and {E}ngineering {XXVII}},
-  title     = {On the {MRAS} bound},
+  title     = {On algebraic bounds for {POSM} and {MRAS}},
   year      = {2023},
   editor    = {Dost{\'{a}}l, Z. and Kozubek, T. and Klawonn, A. and Ulrich, L. and Pavarino, L. F. and {\v{S}}{\'{i}}stek, J. and Widlund, O. B.},
-  publisher = {Springer {B}erlin, {H}eidelberg},
+  publisher = {Springer {N}ature, {S}witzerland},
   series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
-  groups    = {MyPublications},
 }
-
 
 @InProceedings{outrata2022osmwdsts,
   author    = {Gander, M. J. and Outrata, M.},
@@ -40,5 +18,61 @@
   publisher = {Springer {B}erlin, {H}eidelberg},
   series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
   volume    = {145},
-  groups    = {MyPublications},
+  url       = {https://doi.org/10.1007/978-3-030-95025-5_50},
+}
+
+@Article{outrata2024pade,
+  author    = {Gander, M. J. and Jakab{\v{c}}in, L. and Outrata, M.},
+  journal   = {{ETNA}},
+  title     = {Domain truncation, absorbing boundary conditions, {S}chur Complements, and {P}ad{\'{e}} approximation},
+  year      = {2024},
+  pages     = {319--341},
+  volume    = {59},
+  publisher = {{K}ent {s}tate {U}niversity},
+  url       = {https://doi.org/10.1553/etna_vol59s319},
+}
+
+@Article{outrata2022IRKILAS,
+  author  = {Gander, M. J. and Outrata, M.},
+  journal = {{L}inear {A}lgebra and its {A}pplications},
+  title   = {Spectral analysis of implicit 2-stage block {R}unge-{K}utta preconditioners},
+  year    = {2023},
+  url     = {https://doi.org/10.1016/j.laa.2023.07.008},
+}
+
+@Unpublished{outrata2023irksstage,
+  author = {Gander, M. J. and Outrata, M.},
+  note   = {Accepted in {SIAM} {J}ournal of {S}cientific {C}omputing},
+  title  = {Spectral analysis of implicit $s$-stage block {R}unge-{K}utta preconditioners},
+  year   = {2024},
+  url    = {https://michaloutrata.com/pdfs/preprints/2023_GanderOutrata_IRKsstage.pdf},
+}
+
+@Unpublished{outrata2024ham,
+  author = {de Sturler, E. and Outrata, M.},
+  note   = {To be submitted soon},
+  title  = {Preconditioning parametrized linear systems: hierarchical maps approach},
+  year   = {2024},
+  url    = {https://michaloutrata.com/pdfs/preprints/2023_deSturlerOutrata_HAM.pdf},
+}
+
+@Article{outrata2016cournot,
+  author    = {Outrata, J. V. and Ferris, M. C. and {\v{C}}ervinka, M. and Outrata, M.},
+  journal   = {{S}et-{V}alued and {V}ariational {A}nalysis},
+  title     = {On {C}ournot-{N}ash-{W}alras equilibria and their computation},
+  year      = {2016},
+  number    = {3},
+  pages     = {387--402},
+  volume    = {24},
+  publisher = {Springer},
+  url       = {https://doi.org/10.1007/s11228-016-0377-4},
+}
+
+@PhdThesis{outrata2022phdthesis,
+  author    = {Outrata, M.},
+  school    = {University of {G}eneva, {M}ath {D}epartment},
+  title     = {Schwarz methods, {S}chur complements, preconditioning and numerical linear algebra},
+  year      = {2022},
+  address   = {Rue de Conseil-General 2--4, Geneva 4, Switzerland},
+  publisher = {},
 }
