@@ -1,0 +1,181 @@
+Základy numeriky mají své vlastní 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+webovky - https://www.karlin.mff.cuni.cz/~blechta/znm/
+Prezenčka na pondělí:  https://docs.google.com/spreadsheets/d/12WsXPg5-Ti38JBBSszo3iUkP13QJEDW8Tk5gbFtB2LA/edit?usp=sharing
+Prezenčka na středu:   https://docs.google.com/spreadsheets/d/1FoJgTxOQA-76WNO9SbQml-RpxzQ2OApPR7MUW5XzgaA/edit?usp=sharing
+
+
+
+Cviko 13
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Numerické řešení ODR - jendokrokové a vícekrokové metody, diskretizační chyba, odhad chyby metodou polovičního kroku.
+	- (St 14:00) Numerické řešení ODR - jendokrokové a vícekrokové metody, diskretizační chyba, odhad chyby metodou polovičního kroku.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Všechno jsme stihli.
+	- (St 14:00)  Všechno jsme stihli.
+
+
+
+
+
+Cviko 12
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Numerická kvadratura pomocí (složených) Newton-Cotes formulí a Gaussovy (Gauss-Legendrovy) kvadratury.
+	- (St 14:00) Numerická kvadratura pomocí (složených) Newton-Cotes formulí a Gaussovy (Gauss-Legendrovy) kvadratury.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Úloha 10, 11, 12.
+	- (St 14:00)  Úloha 10, 11, 12.
+Zkouknout před příštím cvikem
+	- ODR, jednokrokové vs vícekrokové metody, implicitní vs explicitní metody, přírůstková funkce.
+
+
+
+
+Cviko 11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Lagrangeova interpolace - Vandermond & Lagrangeovy polynomy & ekvidistantni vs. Chebyshevovy body a poté kubické spliny.
+	- (St 14:00) Lagrangeova interpolace - Vandermond & Lagrangeovy polynomy & ekvidistantni vs. Chebyshevovy body a poté kubické spliny.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Všechno jsme stihli.
+	- (St 14:00)  Úloha 4 (opraveny matlab skript).
+Zkouknout před příštím cvikem
+	- Kvadratura - Newton-Cotes & Gauss.
+
+
+
+
+Cviko 10
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Metoda zlatého řezu & Legendrovy OG plynomy.
+	- (St 14:00) Metoda zlatého řezu & Legendrovy OG plynomy.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat konec úlohy 7.
+	- (St 14:00)  Všechno jsme stihli.
+Zkouknout před příštím cvikem
+	- Lagrangeovy polynomy a spliny.
+
+
+
+
+Cviko 9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Bisekce a Newtonova metoda.
+	- (St 14:00) Bisekce a Newtonova metoda.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat Úlohy 4 a 6 pokud jste nestihli na cviku.
+	- (St 14:00)  Úloha 6.
+Zkouknout před příštím cvikem
+	- Ortogonální polynomy.
+
+
+
+
+Cviko 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Krylovovské metody pro aproximaci vlastních čísel.
+	- (St 14:00) Krylovovské metody pro aproximaci vlastních čísel.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Všechno jsme stihli.
+	- (St 14:00)  Všechno jsme stihli.
+Zkouknout před příštím cvikem
+	- Newtonova metoda.
+
+
+
+
+Cviko 7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Mocninná metoda, její konvergence a inverzní iterace.
+	- (St 14:00) Mocninná metoda, její konvergence a inverzní iterace.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Všechno jsme stihli.
+	- (St 14:00)  Všechno jsme stihli.
+Zkouknout před příštím cvikem
+	- Krylovovské metody a vlastní čísla.
+
+
+
+
+Cviko 5 & 6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Nejmenší čtverce a jejich teoretické vlastnosti.
+	- (St 14:00) Nejmenší čtverce a jejich teoretické vlastnosti.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat příklady na aplikaci nejmenších čtverců - poslední dvě MATLAB úlohy.
+	- (St 14:00)  Všechno jsme stihli.
+Zkouknout před příštím cvikem
+	- Mocninná metoda.
+
+
+
+Cviko 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Modifikovaný Gram-Schmidtův algoritmus (kód a analýza) a QR rozklad.
+	- (St 14:00) Modifikovaný Gram-Schmidtův algoritmus (kód a analýza) a QR rozklad.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat Úlohu 3 a 4.
+	- (St 14:00)  Dodělat Úlohu 3 a 4.
+Zkouknout před příštím cvikem
+	- Problém nejmenších čtverců a jeho řešení.
+
+
+
+Cviko 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Jacobi & Gauss-Seidel metody (kód a analýza).
+	- (St 14:00) Jacobi & Gauss-Seidel metody (kód a analýza).
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat LU rozklad v MATLABu (viz zadání).
+	- (St 14:00)  Dodělat LU rozklad v MATLABu (viz zadání).
+Zkouknout před příštím cvikem
+	- Ortogonalizace vektorů - Gram-Schmidtova ortogonalizace, Givensovy rotace, Householderovy reflexe.
+
+
+
+Cviko 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Seznámení s MATLABem - samostatná práce.
+	- (St 14:00) Seznámení s MATLABem - samostatná práce.
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Dodělat seznámení se s MATLABem (v rozsahu zadání 2. cvika - budeme určitě potřebovat volání a psaní skriptů a funkcí).
+	- (St 14:00)  Dodělat seznámení se s MATLABem (v rozsahu zadání 2. cvika - budeme určitě potřebovat volání a psaní skriptů a funkcí).
+Zkouknout před příštím cvikem
+	- Princip iteračních metod pro lineární soustavy rovnic.
+
+
+Cviko 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Stihli jsme
+	- (Po 14:00) Úlohy 1,2,5,6
+	- (St 14:00) Úlohy 1,2,4,5,6
+Nestihli jsme - dodělat doma
+	- (Po 14:00)  Úloha 7 & Gaussova eliminace jako LU rozklad (sekce 4)
+	- (St 14:00)  Úloha 7 & Gaussova eliminace jako LU rozklad (sekce 4)
+Zkouknout před příštím cvikem
+	- Pokud přijdete s vlastním noťasem, nainstalujte si předem MATLAB.
+
+
+
+
+
+Zápočet
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Pro udělení zápočtu je nutné splnit 2 podmínky, které se liší podle předmětu.
+Základy numerické matematiky (NMNM201)
+	- Aktivní účast na nejméně 9 cvičeních ze 12.
+	- Řešení domácích úkolů. Na cvičeních studenti dostanou postupně 5 úkolů, které řeší doma ve skupinách nejvýše po třech. Skupiny je možné tvořit pouze ze studentů 	navštěvujících cvičení stejného cvíčícího. Na vypracování poté mají jeden týden a řešení odevzdají elektronicky či na papíře cvičícímu. Za každý úkol mohou studenti 	získat 0 až 6 bodů. K udělení zápočtu je třeba získat alespoň dvě třetiny z celkového počtu bodů, tedy 20.
+
+Základy numerické lineární algebry (NMMB203)
+	- Aktivní účast na nejméně 5 cvičeních ze 7.
+	- Řešení domácích úkolů. Na cvičeních studenti dostanou postupně 2 úkoly, které řeší doma ve skupinách nejvýše po třech. Skupiny je možné tvořit pouze ze studentů 	navštěvujících cvičení stejného cvíčícího. Na vypracování poté mají jeden týden a řešení odevzdají elektronicky. Za každý úkol mohou studenti získat 0 až 6 bodů. K 	udělení zápočtu je třeba získat alespoň dvě třetiny z celkového počtu bodů, tedy 8.
