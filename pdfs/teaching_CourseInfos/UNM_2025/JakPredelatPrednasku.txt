@@ -1,0 +1,14 @@
+-------------------------------------------------------
+------------------  Intro prednaska -----------------------
+-------------------------------------------------------
+- ukazat jim jak si zkopírovat a ulozit googlecolab sheets - aby mohli do prvního cvika zkouset to "cviko0"
+
+
+
+-------------------------------------------------------
+------------------  Interpolace -----------------------
+-------------------------------------------------------
+Hermitovska interpolace 
+	- vysvetlit jako moznost fixnuti tech oscilaci 
+	- kdyz osciluju, tak to znamena, ze musim mitstrmou derivaci v tech bodech -> predepisu derivace
+	- nefunguje vždy - nemusim mit data na derivaci a nemusi byt "nestrma"
