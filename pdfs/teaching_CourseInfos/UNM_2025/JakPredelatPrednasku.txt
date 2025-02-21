@@ -1,14 +1,18 @@
 -------------------------------------------------------
 ------------------  Intro prednaska -----------------------
 -------------------------------------------------------
+#### Týden 1 přednášky
 - ukazat jim jak si zkopírovat a ulozit googlecolab sheets - aby mohli do prvního cvika zkouset to "cviko0"
-
+- zabralo mi to cca 15-20 minut
 
 
 -------------------------------------------------------
 ------------------  Interpolace -----------------------
 -------------------------------------------------------
-Hermitovska interpolace 
+#### Týden 1 přednášky
+- do konce první přednášky jsme stihli motivaci interpolace, vandermondovu formulaci a Lagrangeovu interpolaci
+- druhou přednášku jsem jim nechal hodně času an rozmýšlení Hermitovské interpolace a posledních 20 minut strávil s vyjádřením chyby Lagrangeovské interpolace
+- Hermitovska interpolace 
 	- vysvetlit jako moznost fixnuti tech oscilaci 
 	- kdyz osciluju, tak to znamena, ze musim mitstrmou derivaci v tech bodech -> predepisu derivace
 	- nefunguje vždy - nemusim mit data na derivaci a nemusi byt "nestrma"
