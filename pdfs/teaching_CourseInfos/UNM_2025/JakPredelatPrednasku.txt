@@ -1,4 +1,12 @@
 -------------------------------------------------------
+-------------------  Organizace -----------------------
+-------------------------------------------------------
+- mozna omezit natvrdo max. počet lidi na projektu - ted jsem dal 6
+- mozna omezit natvrdo počet lidi v tymu, ted jsem nic takového nemel, ale mozna bych mel dat 3
+
+
+
+-------------------------------------------------------
 ------------------  Intro prednaska -----------------------
 -------------------------------------------------------
 #### Týden 1 přednášky
@@ -16,3 +24,14 @@
 	- vysvetlit jako moznost fixnuti tech oscilaci 
 	- kdyz osciluju, tak to znamena, ze musim mitstrmou derivaci v tech bodech -> predepisu derivace
 	- nefunguje vždy - nemusim mit data na derivaci a nemusi byt "nestrma"
+
+#### Týden 1 cvika
+- cviko0: 
+	* vypíchnout numpy prochazeni arrays (for in in range(..)) vs python prochazeni arrays (for x in x_totry)
+	* vypichnout ze ApproxSqrt2_x aproximuje jen to "x" -> nekomu to nebylo jasne
+- cviko1:
+	* re-pouzivani funkci - kdyz jsem si to zadefinoval vyse, tak to nadále muzu pouzivat
+	* inicializace poli - vysvetlit detailne proc to potrebujeme
+	* chebyshevovy body - formulka nahore je pro "i=0,...,n" ale funkce je pro "n" bodu - sjednotit
+
+
