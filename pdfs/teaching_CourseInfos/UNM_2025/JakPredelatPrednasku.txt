@@ -9,7 +9,7 @@
 -------------------------------------------------------
 ------------------  Intro prednaska -----------------------
 -------------------------------------------------------
-#### Týden 1 přednášky
+#### Týden 1 -- 1. přednáška
 - ukazat jim jak si zkopírovat a ulozit googlecolab sheets - aby mohli do prvního cvika zkouset to "cviko0"
 - zabralo mi to cca 15-20 minut
 
@@ -17,7 +17,7 @@
 -------------------------------------------------------
 ------------------  Interpolace -----------------------
 -------------------------------------------------------
-#### Týden 1 přednášky
+#### Týden 1 -- 1. a 2. přednáška
 - do konce první přednášky jsme stihli motivaci interpolace, vandermondovu formulaci a Lagrangeovu interpolaci
 - druhou přednášku jsem jim nechal hodně času an rozmýšlení Hermitovské interpolace a posledních 20 minut strávil s vyjádřením chyby Lagrangeovské interpolace
 - Hermitovska interpolace 
@@ -25,13 +25,53 @@
 	- kdyz osciluju, tak to znamena, ze musim mitstrmou derivaci v tech bodech -> predepisu derivace
 	- nefunguje vždy - nemusim mit data na derivaci a nemusi byt "nestrma"
 
-#### Týden 1 cvika
+#### Týden 1 -- cvika
 - cviko0: 
 	* vypíchnout numpy prochazeni arrays (for in in range(..)) vs python prochazeni arrays (for x in x_totry)
 	* vypichnout ze ApproxSqrt2_x aproximuje jen to "x" -> nekomu to nebylo jasne
 - cviko1:
 	* re-pouzivani funkci - kdyz jsem si to zadefinoval vyse, tak to nadále muzu pouzivat
 	* inicializace poli - vysvetlit detailne proc to potrebujeme
-	* chebyshevovy body - formulka nahore je pro "i=0,...,n" ale funkce je pro "n" bodu - sjednotit
+	* chebyshevovy body - formulka nahore je pro "i=0,...,n" ale funkce je pro "n" bodu
+	* chebyshevovy body - formulka nam da spatne serazene Cheb body (od 1 do -1)
+	* ob tyto veci bych nechal ale explicitne bych napsal do zadani (hint?), at si na to daji pozor
 
 
+#### Týden 2 -- 3.přednáška
+- pouze jedna přednáška a vyšla mi celkem akorát
+- spliny jsem neměl dostatečně dobře připravené -> zlepšit didaktickou strukturu:
+	-> ja zacal mluvenim o interpolaci po castech polynomem 1. stupne (skrz kazde 2 body) a pak 3. stupne (skrz 4 body)
+	-> misto toho bych mel mluvit o 1. stupne (skrz kazde 2 body) a 3. stupne, který fituje derivace (skrz kazde dva body)
+
+#### Týden 2 -- cvika
+- cviko0: 
+	* vypichnout "# Vas kod" pro LinearniSpline - nekteri nechapali, ze (ani jak) pouzivat tu funkci na hledani toho intervalu (x_i,x_ip1)
+	* U testu pro kubicky spline testuju linearni spline
+- cviko1:
+	* chyba interpolace Chebyshev vs. ekvidistantni, kde rozkresluju chybu po bodech -> obrazek chci aby odpovidal n=31 (bylo to blbe)
+	* neporozumeni tomu, jak inicializovat ty pole pro  chybu u splinu (err_kub, err_lin) -> lepe vysvetlit (napsat jako komentar v kodu?)
+
+
+-------------------------------------------------------
+-----------  FPA + PodminenostAStabilita --------------
+-------------------------------------------------------
+#### Týden 2 -- 4.přednáška
+- FPA OK, ale zkouknul jsem si to pred přednáškou
+- podminenost a stabilita vysvetleni OK
+- podminenost demo -> didakticky mohlo byt lepsi -> je zapotřebí lepe připomínat proc delame to co delame
+	- jako první napsat polynom (x-1)*...*(x-20) + delta*x^19 a zeptat se jak velky musí byt delta, aby to zmenilo vyrazne ten polynom
+		- idealni na kartičky - vyplotim jeden vyvoj pro delta=1e-5 a dam na vyber ruzny hodnoty delta který by to mohly způsobit
+	- pak ukazat jaky delta to bylo a ukazat ruzny delta hodnoty -> spatna podminenost korenu jako funkci koeficientu v monicke bazi
+	- nechat je odhadnout kolik budou koeficienty v  monickle bazi, tj. a20*x^20 + a19*x^19 + ...
+	- pak ukazat demo vypocet
+- nechal jsem si malo casu na ideu numericke analyzy (zpetna stabilita + dobra podminenost = relativne presne reseni)
+- nemel jsem didakticky ani sam pro sebe dobře rozmyslenou tuhle myslenku te numericke analyzy
+- stihnul bych i kus 5. přednášky, kdybych to mel lepe rozvrzene a rozmyslene, takhle mi zbyva na 5. přednášce dodelat 
+	"zpetna stabilita + dobra podminenost = relativne presne reseni" 
+
+#### Týden 2 -- cvika
+- cviko0: 
+	* podrobneji popsat smysl cviceni A_theta, aby bylo vice jasne proc delaji toho Taylora
+	* ten Taylor je tam udelany spatne v tom hintu (melo by byt (x/2)^2 misto x^2/2)
+- cviko1:
+	* podrobneji popsat np.finfo32
