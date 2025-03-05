@@ -75,3 +75,20 @@
 	* ten Taylor je tam udelany spatne v tom hintu (melo by byt (x/2)^2 misto x^2/2)
 - cviko1:
 	* podrobneji popsat np.finfo32
+
+
+#### Týden 3 -- 5.přednáška
+- poradne udelana podminenost a stabilita - trvalo to dele, takze jsem nestihl udelat Cramer's rule jako nestabilni
+- myslim, ze se dost ytraceli u prikladu, kdyz se maji napasovat na tu teorii podminenosti - u interpolace to je snazsi nez u podminenosti korenu
+- zabralo mi to celkem 1:42 minut, takze je to slozitejsi a delsi blok, ale 6. prednaska nepotrebuje tolik casu (stacilo mi 60 minut), takze OK
+- vyhledove jde asi zefektivnit, abych mohl ukazat i ten Cramer's rule a jeho nestabilitu
+
+
+
+
+-------------------------------------------------------
+-----------  Numericka integrace - kvardratury --------------
+-------------------------------------------------------
+#### Týden 3 -- 6.přednáška
+- lepe uvest kviz ke splinum, nerekl jsem to uplne srozumitelne
+- lepe uvest stupen kvadratury
