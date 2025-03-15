@@ -1,8 +1,11 @@
 -------------------------------------------------------
 -------------------  Organizace -----------------------
 -------------------------------------------------------
-- mozna omezit natvrdo max. počet lidi na projektu - ted jsem dal 6
 - mozna omezit natvrdo počet lidi v tymu, ted jsem nic takového nemel, ale mozna bych mel dat 3
+- pridat nejake tuzka-papir otázky do prvního cvika na interpolaci - asi jako navíc, protože to cviko je takhle dobry, ale je moc jednoduchy jako projekt
+- zmenit zapocet na "vypracovany zapoctovy projekt" misto "7/10 bodu".
+- vyrazne vylepsit cviko 0 -> musime ho predelat do "numpy", ted je to "python"
+- u vsech zadani nechat vykreslene spravne odpovedi
 
 
 
@@ -11,7 +14,12 @@
 -------------------------------------------------------
 #### Týden 1 -- 1. přednáška
 - ukazat jim jak si zkopírovat a ulozit googlecolab sheets - aby mohli do prvního cvika zkouset to "cviko0"
-- zabralo mi to cca 15-20 minut
+- intro mi celkem zabralo cca 15-20 minut
+- mel jsem rict a zapomnel jsem:
+	- cviceni mají ulohy, ulhoy "navíc" a ulohy "navíc navíc"
+	- zapoctove projekty mají mit i casti tuzka-papir -> latex je idealni (kvůli bakalarce), ale je mozne i nahrat obrazek do separatni textove bunky
+	- kvizy během prednasek (nevim jestli je zvedu od zacatku nebo ne)
+
 
 
 -------------------------------------------------------
@@ -47,9 +55,9 @@
 - cviko0: 
 	* vypichnout "# Vas kod" pro LinearniSpline - nekteri nechapali, ze (ani jak) pouzivat tu funkci na hledani toho intervalu (x_i,x_ip1)
 	* U testu pro kubicky spline testuju linearni spline
-- cviko1:
 	* chyba interpolace Chebyshev vs. ekvidistantni, kde rozkresluju chybu po bodech -> obrazek chci aby odpovidal n=31 (bylo to blbe)
 	* neporozumeni tomu, jak inicializovat ty pole pro  chybu u splinu (err_kub, err_lin) -> lepe vysvetlit (napsat jako komentar v kodu?)
+	* pridat teoreticke cviko na plotovani chyby - jak vypada exponencialni poklles chyby v semiology a jak v loglog
 
 
 -------------------------------------------------------
@@ -68,6 +76,8 @@
 - nemel jsem didakticky ani sam pro sebe dobře rozmyslenou tuhle myslenku te numericke analyzy
 - stihnul bych i kus 5. přednášky, kdybych to mel lepe rozvrzene a rozmyslene, takhle mi zbyva na 5. přednášce dodelat 
 	"zpetna stabilita + dobra podminenost = relativne presne reseni" 
+-> JE NUTNE SI TO SAM ODRIKAT (nekolikrat)
+
 
 #### Týden 2 -- cvika
 - cviko0: 
@@ -75,6 +85,8 @@
 	* ten Taylor je tam udelany spatne v tom hintu (melo by byt (x/2)^2 misto x^2/2)
 - cviko1:
 	* podrobneji popsat np.finfo32
+	* chybi numericky test pro Alg1_Srt2
+	* numericky test pro Alg2_Srt2 ma test jen po jedne iteraci, pridat i neco na druhou
 
 
 #### Týden 3 -- 5.přednáška
@@ -92,3 +104,27 @@
 #### Týden 3 -- 6.přednáška
 - lepe uvest kviz ke splinum, nerekl jsem to uplne srozumitelne
 - lepe uvest stupen kvadratury
+
+#### Týden 3 -- cvika
+* lepe uvest np.poly1d na vytvoreni polynomu z korenu - staci linknout primo tu funkci an vytvoreni poly a pak separatne na integraci poly
+* pridat teoreticke cviko na odhad chyby metodou polocvicniho kroku (ted je u Monte-Carlo)
+
+
+
+
+-------------------------------------------------------
+-----------  Numericka integrace - MonteCarlo --------------
+-------------------------------------------------------
+#### Týden 4 -- 7. - 8. přednáška PRESUNOUT AZ NAKONEC?
+- navadeci otazky vedou k \int f ~ 1/N \sum_i f(x_i) -> zduraznit ze dava smysl, pouze pokud vsechny body jsou stejne pravdepodobne -> pak prvni kviz
+- pak mit rozmysleny uvod na spojite nahodne veliciny -> co to znamena ze nahodna velicina ma rovnomerne rozdeleni
+	- tohle jsem ani nemel dobre pripravene pred hodinou ja -> JE NUTNE SI TO SAM ODRIKAT (jhako stabilitu a podminenost)
+	- tohle je uplne basic - melo by jit i v principu pro stredoskolaky - jen ja jsem to zvoral
+- lepe uvest adaptivni MC -> jako zpusob zlepseni toho odhadu -> chci atakovat "var(F(x))" jen tam kde opravdu je a ne "zbytecne samplovat" nekde kde je rozptyl maly
+- lepe promysleny uvedeni kvizu na adaptivni/stratifikovane MC
+- quasi MC jsem nestihnul
+
+#### Týden 4 -- cvika
+* uz je trochu frustrace z kodeni, zadani nebylo dost low-level
+* tim ze matika u MC je pro ne tezka, tak v tomhle cviku by to melo byt ještě o to vic navodny s tim kodenim a zadanim
+* vyčistit anglicky vs cesky nazvy promennych kodu
