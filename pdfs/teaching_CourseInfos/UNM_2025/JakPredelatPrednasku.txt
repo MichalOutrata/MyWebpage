@@ -6,6 +6,24 @@
 - zmenit zapocet na "vypracovany zapoctovy projekt" misto "7/10 bodu".
 - vyrazne vylepsit cviko 0 -> musime ho predelat do "numpy", ted je to "python"
 - u vsech zadani nechat vykreslene spravne odpovedi
+- zkratit ODR o jednu přednášku a udelat SDE na zaklade PatrickFarrell project
+
+
+
+-------------------------------------------------------
+-------------------  Pozzadavky na jiné predmety -----------------------
+-------------------------------------------------------
+- Teorie pravdepodbnosti 
+	* mohli by mit ve 4. tydnu uz zadefinovane spojitou nahodnou veličinu a nejake zakladni věci k ni, jako prumer,rozptyl,pst
+- Programko - chci aby umeli:
+	* debuggovat kod s papirem a tužkou - nefunguje mi to, tak si musim tuzka-papir spočítat inpout-a-output a porovnat kde se rozchazim s PC
+	* plotovat s plt.plot(), plt.smilogy(), plt.loglog()
+	* zakladni numpy věci, jako np.arange(), np.linspace(), np.dot() nebo @
+	* inicializace poli, do kterých si pak chci ukládat výsledky
+	* jednotny psani for-cyklu -- for ind in range(0,len(pole)): prvek = pole[ind]
+
+
+
 
 
 
@@ -108,6 +126,7 @@
 #### Týden 3 -- cvika
 * lepe uvest np.poly1d na vytvoreni polynomu z korenu - staci linknout primo tu funkci an vytvoreni poly a pak separatne na integraci poly
 * pridat teoreticke cviko na odhad chyby metodou polocvicniho kroku (ted je u Monte-Carlo)
+* to prepocitavani vah - nejspis tam mam blbe danou tu transformacni funkci - chci ji asi z (a,b) do (-1,1) a ne naopak
 
 
 
@@ -128,3 +147,44 @@
 * uz je trochu frustrace z kodeni, zadani nebylo dost low-level
 * tim ze matika u MC je pro ne tezka, tak v tomhle cviku by to melo byt ještě o to vic navodny s tim kodenim a zadanim
 * vyčistit anglicky vs cesky nazvy promennych kodu
+* ten kod bezi desne dlouho pokud se vycisluje pdf po jednotlivych bodech v M -> jde to vycislovat pres celou tu matici, ale to neni to "tuzka-papir"
+
+
+
+-------------------------------------------------------
+--------------  Numericke reseni ODR ------------------
+-------------------------------------------------------
+#### Týden 4 -- 9. - 10. přednáška 
+ - uvod byl moc okecavaci a malo cool --> chce to nejaky priklady
+ - lepsi uvod ODRek jako tematu -> bylo to dost nemastny neslany co se tyce aplikaci - vybrakovat ExploringODEs od Trefethena
+ - pridat prevadeni n-th order ODR na 1-st order ODR do skript
+ - nikdo moc nemel tusaka na vetsinu z otazek - "jak byste numericky resili ODR?", "jak byste numericky zavedli jednokrokovou emtodu?", "jak byste definovali chybu?"
+   --- je zapotrebi vymyslet lepsi navodne otazky na odvozeni Expl/Impl Eulera
+ - na kvizu na prednasce bylo netrivialni se chytit
+   --- nejvetsi problem byl s tim, ze jsem dopredu nevysvetlil impl/expl Eulera jako "vyrazim spravnym smerem vs dorazim spravnym smerem"
+ - explicitni metody typu RK je zapotrebi lepe rozpracovat - uz jsem je na konci moc nestihal, tak sem spechal, ale je nutne
+   lepe ospravedlnit ten tvar - skrze "stage vectors odpovidaji mezikrokum"
+#### cele bych to predelal následujícím zpusobem
+	- motivace
+		* kofein v tele (ExploringODEs) - linearni ODR
+		* vedeni tepla - linearni system ODR
+		* SIR model (mozna vymenit za něco vic cool - treba rust lesa jak rikal honza papez skrz chatgpt nebo najit neco v Trefethenovi) - nelinearni system ODR
+		* black-scholes - SDR (intuitivni odozeni přes "dy/dt = f <-> dy = f*dt")
+	- odvozeni explicitního Eulera fyzikalne - jsem v bode a chci se pohnout o "tau" - kudy bych se mel vydat? 
+		* Odpovida tomu, ze chci udelat "linearni aproximaci" v "tau" a chci vede jak volit sklon
+		* jak se toto da zobecnit? Muzu vzit "lepsi aproximaci - ne jen linearni" - Taylor
+		* zavedeni chyby aproximace - lokalni & globalni -> lokalni na zaklade Taylora, globalni z toho
+	- odvozeni na zaklade integralu
+		* uvidíme explicitního eulera a midpoint eulera
+		* interpretace midpoint rule jako "2-stage metody" - co tam ta "stage vlastne dela? ukazat graficky
+		* explcitni Runge-Kutta metody jako prirozene zobecneni
+		* ukazka expl. eulera, midpoint eulera a dalsich expl. RK metod s oscilaci
+		* - proc se to deje?
+		------------
+	- odvozeni implicitniho Eulera
+		* nejdriv z fyzikalniho pohledu, posleze taky z integralu
+		* porovnani implicitni, midpoint, explicitni Euler -> kviz na grafy
+		* kdyz se stihnou IRK tak fajn
+
+	
+
