@@ -187,4 +187,20 @@
 		* kdyz se stihnou IRK tak fajn
 
 	
+#### Týden 5 -- 11. přednáška 
+ - docela dlouhy uvod a stalo o za to zopakovat poradne vsechno
+ - docela jsem si pripravoval rozmysleni expl. Runge-Kutta jako zobecneni "multiple mini expl. Eulers within one timestep", dobrej je obrazek na wiki (RK4)
+ - oblast stability davala smysl, nechaval jsem vypocitat expl. i impl. Eulera ty vzorecky "yn=R(tau*lambda)^n * y0" samostatne, pred zavedenim R(tau*lambda)
+ - nemeli komplexni cisla poradne -> trochu problem na tu oblast stability
 
+
+
+
+-------------------------------------------------------
+--------------  Numericke reseni NelinAlgRic ------------------
+-------------------------------------------------------
+#### Týden 5 -- 12. přednáška 
+ - odhad chyby Newtona bych si mel predtim jendou odrikat pro sebe, nebyl sem si jistej
+ - Newton sel rychle, stihli jsme pod 60 minut
+ - kviz byl fakt nesikovnej tim, ze nebyl stejnej scaling na ose x a y -> chce to vybrat lepsi priklad nez exponencialu
+ - druhej kviz jsme uplne nestihli a ja je neforcoval aby zustali tech 5 minut pres cas
