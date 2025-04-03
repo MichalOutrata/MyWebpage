@@ -28,6 +28,22 @@
 
 
 -------------------------------------------------------
+------------------  Intro cviko0 -----------------------
+-------------------------------------------------------
+* umime for cykly
+* umime for cykly ve for cyklech (pozor na stejne pojmenovani promenene prese kterou cyklime - for ind in ():  for ind in ():)
+* vsechno budeme delat v numpy unles forced othrwise
+* umime debuggovat
+  - rozkliknout frames
+  - vedet s cim porovnavam na zaklade kodu, nejen vypisu
+  - nechat si vypsat jaka je teda hodnota, kdyz ne ta spravna
+
+
+
+
+
+
+-------------------------------------------------------
 ------------------  Intro prednaska -----------------------
 -------------------------------------------------------
 #### Týden 1 -- 1. přednáška
@@ -154,7 +170,7 @@
 -------------------------------------------------------
 --------------  Numericke reseni ODR ------------------
 -------------------------------------------------------
-#### Týden 4 -- 9. - 10. přednáška 
+#### Týden 5 -- 9. - 10. přednáška 
  - uvod byl moc okecavaci a malo cool --> chce to nejaky priklady
  - lepsi uvod ODRek jako tematu -> bylo to dost nemastny neslany co se tyce aplikaci - vybrakovat ExploringODEs od Trefethena
  - pridat prevadeni n-th order ODR na 1-st order ODR do skript
@@ -164,6 +180,7 @@
    --- nejvetsi problem byl s tim, ze jsem dopredu nevysvetlil impl/expl Eulera jako "vyrazim spravnym smerem vs dorazim spravnym smerem"
  - explicitni metody typu RK je zapotrebi lepe rozpracovat - uz jsem je na konci moc nestihal, tak sem spechal, ale je nutne
    lepe ospravedlnit ten tvar - skrze "stage vectors odpovidaji mezikrokum"
+ - u explicitnih metod ne vsem doslo, ze k1, ..., ks zaviseji na (t_n-1, y_n-1) a nikoliv pouze na (t_0, y_0)
 #### cele bych to predelal následujícím zpusobem
 	- motivace
 		* kofein v tele (ExploringODEs) - linearni ODR
@@ -187,7 +204,7 @@
 		* kdyz se stihnou IRK tak fajn
 
 	
-#### Týden 5 -- 11. přednáška 
+#### Týden 6 -- 11. přednáška 
  - docela dlouhy uvod a stalo o za to zopakovat poradne vsechno
  - docela jsem si pripravoval rozmysleni expl. Runge-Kutta jako zobecneni "multiple mini expl. Eulers within one timestep", dobrej je obrazek na wiki (RK4)
  - oblast stability davala smysl, nechaval jsem vypocitat expl. i impl. Eulera ty vzorecky "yn=R(tau*lambda)^n * y0" samostatne, pred zavedenim R(tau*lambda)
@@ -199,8 +216,31 @@
 -------------------------------------------------------
 --------------  Numericke reseni NelinAlgRic ------------------
 -------------------------------------------------------
-#### Týden 5 -- 12. přednáška 
+#### Týden 6 -- 12. přednáška 
  - odhad chyby Newtona bych si mel predtim jendou odrikat pro sebe, nebyl sem si jistej
  - Newton sel rychle, stihli jsme pod 60 minut
  - kviz byl fakt nesikovnej tim, ze nebyl stejnej scaling na ose x a y -> chce to vybrat lepsi priklad nez exponencialu
  - druhej kviz jsme uplne nestihli a ja je neforcoval aby zustali tech 5 minut pres cas
+
+
+#### Týden 7 -- 13. přednáška 
+ - ten kviz na rychlost konvergence Newtona byl tricky - geoimetricka predstava je, ze cim vetsi alpha, tim vis zacinam, ale i tim strmejsi tecna. Protoze to je exponenciala, tak se vyplati zacinat vys a mit strmejsi tecnu, protoze exponenciala roste rychleji nez ta jeji tecna.
+ - lepe pripraveny priklad na Banachovu vetu o kontrakci - chtelo by to rozepsat vice do detailu
+
+
+
+#### Týden 7 -- 14. přednáška 
+ - pretahoval jsem s (kvazi-)Newtononem do 14. prednasky
+ - behem 15 minut jsem motivoval pdf vektoroveho normalniho rozdeleni a nutnost resit LinAlgRce s ruznymy pravymi stranami
+ - behem 15 minut jsem stihnul odvodit "Black-Scholes -> rovnice vedeni tepla"
+ - dalsich 20 minut mi zabralo rozepsani rovnice vedeni tepla na system ODRek -- tady jsem skoncil
+ - brutalne jsem nestih tu motivaci Black-Scholes dodelat --- je zapotrebi si to zkusit odrikat predem
+ - asi bych potreboval dalsich 20 minut na dodelani
+
+
+-------------------------------------------------------
+--------------  Numericke reseni LinAlgRic ------------------
+-------------------------------------------------------
+
+#### Týden 8 -- 15. - 16. přednáška 
+ - nevim, prednasel za me Peta Tichy
