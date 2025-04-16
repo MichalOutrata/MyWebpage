@@ -7,11 +7,13 @@
 - vyrazne vylepsit cviko 0 -> musime ho predelat do "numpy", ted je to "python"
 - u vsech zadani nechat vykreslene spravne odpovedi
 - zkratit ODR o jednu přednášku a udelat SDE na zaklade PatrickFarrell project
+- promyslet AI naseptavani kodu - co s tim?
+
 
 
 
 -------------------------------------------------------
--------------------  Pozzadavky na jiné predmety -----------------------
+-------------------  Pozadavky na jiné predmety -----------------------
 -------------------------------------------------------
 - Teorie pravdepodbnosti 
 	* mohli by mit ve 4. tydnu uz zadefinovane spojitou nahodnou veličinu a nejake zakladni věci k ni, jako prumer,rozptyl,pst
@@ -32,7 +34,7 @@
 -------------------------------------------------------
 * umime for cykly
 * umime for cykly ve for cyklech (pozor na stejne pojmenovani promenene prese kterou cyklime - for ind in ():  for ind in ():)
-* vsechno budeme delat v numpy unles forced othrwise
+* vsechno budeme delat v numpy unless forced othrwise
 * umime debuggovat
   - rozkliknout frames
   - vedet s cim porovnavam na zaklade kodu, nejen vypisu
@@ -237,6 +239,11 @@
  - brutalne jsem nestih tu motivaci Black-Scholes dodelat --- je zapotrebi si to zkusit odrikat predem
  - asi bych potreboval dalsich 20 minut na dodelani
 
+#### Týden 7 cvika
+ * predelat test a zadani na spravnost Newtona - tedka tam je, ze se ma vracet pole o ruznych velikostich an zaklade ne/konvergence te metody
+ * bylo by lepsi aby se vzdycky vracelo pole velikosti "maxit*len(x0)" - jedina nevyhoda je plotovani a to za en stejne delam ja, tak to je ok
+ * konvergence-vs-nekonvergences muze vracet v extra outputu "PocetIteraci" - pokud je to max tak jsme nezkonvergovali
+
 
 -------------------------------------------------------
 --------------  Numericke reseni LinAlgRic ------------------
@@ -244,3 +251,15 @@
 
 #### Týden 8 -- 15. - 16. přednáška 
  - nevim, prednasel za me Peta Tichy
+ - prej to bylo nezazivny (Marek) ale dobry a jasny (Bara)
+
+
+
+#### Týden 9 -- 17. - 18. přednáška 
+ - mel jsem docela hezky pripravene (byl se u me podivat Dalibor Smid)
+ - na zacatku jsem zopakoval ten vysledek te stability
+ - pak jsem zopakoval normy matic, pak stabilitu Ax=b -> nechal jsem je zkusit odvodit a vlastne vsechno zvladli, kdyz jsem rozepsal x-x_tild = A_inv(Ax-Ax_tild +A_tildx_tild - A_tildx_tild)
+ - zduraznil jsem, proc nejsme spoko s x_tild na prave strane odhadu
+ - kviz na ridkost matic byl nezazivny a asi moc lehky
+ - u Gram-Schmidta jsem vylozil rozdil CGS vs MGS uz pro matici 3x3 a bylo to lepsi
+ - dvakrat jsem se zakecal, dost sem je nechaval pracovat samostatne a stejne jsem tuhle prednasku stihnul just right
