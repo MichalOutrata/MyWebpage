@@ -259,6 +259,7 @@
  - mel jsem docela hezky pripravene (byl se u me podivat Dalibor Smid)
  - na zacatku jsem zopakoval ten vysledek te stability
  - pak jsem zopakoval normy matic, pak stabilitu Ax=b -> nechal jsem je zkusit odvodit a vlastne vsechno zvladli, kdyz jsem rozepsal x-x_tild = A_inv(Ax-Ax_tild +A_tildx_tild - A_tildx_tild)
+ - rekljsem blbe definici unitarni matice (!!!) - ||Q|| = 1 a pritom to melo byt ||Qv|| = ||v||
  - zduraznil jsem, proc nejsme spoko s x_tild na prave strane odhadu
  - kviz na ridkost matic byl nezazivny a asi moc lehky
  - u Gram-Schmidta jsem vylozil rozdil CGS vs MGS uz pro matici 3x3 a bylo to lepsi

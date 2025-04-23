@@ -1,0 +1,20 @@
+PraktickaCast
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Prosli jsme 10 oblasti numerických vypoctu z nichz 8 zahrnovalo 'intro/jednoduchou metodu' pro reseni zakladniho problemu.
+
+- naimplementovat & pouzit linearni spline k interpolaci funkce f: R -> R
+- naimplementovat & pouzit NC/Gaussovu kvadraturu k aproximaci integralu \int_a^b f(x) dx
+- naimplementovat & pouzit uniformni Monte-Carlo k aproximaci vice-dimenzionalniho integralu
+- naimplementovat & pouzit impl/expl Eulera k aproximaci reseni systemu ODR
+- naimplementovat & pouzit Newtonovu metodu k aproximaci korene funkce F: R^d -> R^d
+- naimplementovat & pouzit resic soustavy lin. alg. rovnic s horni/dolni trojuhelnikovou matici
+- naimplementovat & pouzit QR rozklad ctvercove matice (nikoliv vestavenou funkci, ale je na vas ktery algoritmus zvolite)
+- naimplementovat & pouzit mocninnou metodu k aproximaci dominantního vl. paru dane matice A
+
+Vynechavame Tema2(podminenost-stabilita) a Tema8(ne/linearni-LS).
+
+Obecne hodnoceni
+- inicializace poli/struktur pro ukladani vysledku
+- spravny matematicke odvozeni (ne vzdy aplikovatelne)
+- spravna kostra kodu (pocet for-cyklu a jejich zanoreni do sebe, odkud-kam cyklus jede; analogicky pro if-else/while/...)
+- spravne pokyny uvnitr kostry

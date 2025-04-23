@@ -1,0 +1,133 @@
+Teoretika Cast
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Prosli jsme 10 oblasti numerických vypoctu a v nich celkem 12 temat
+
+- interpolace dat (A)
+- podminenost problemu a stabilita algoritmu (A-B)
+- numericka kvadratura zalozena na interpolaci (A)
+- numericka kvadratura Monte-Carlo (A)
+- numericke reseni ODR (A)
+- numericke reseni nelinearnich algebraickych rovnic (A)
+- numericke reseni linearnich algebraickych rovnic - Gaussova eliminace & LU faktorizace (B)
+- numericke reseni linearnich algebraickych rovnic - ortogonalizace & QR faktorizace (B)
+- numericke reseni linearnich algebraickych rovnic - iteracni resice (B)
+- problem nejmensich ctvercu - linearni (B)
+- problem nejmensich ctvercu - nelinearni & optimalizace (A)
+- singularni rozklad matice & data-science (B)
+- numericka aproximace vlastnich paru matice (B)
+
+Rozdelili jsme je priblizne na dve skupiny:
+- (A) : metody pro problemy matematicke analyzy
+- (B) : metody pro problemy linearni algebry
+
+V teoreticke casti budou 4 otazky (2 na kazdou z casti A a B), ktere maji otestovat vase porozumeni dane oblasti.
+
+
+
+-----------------------------------------------------------
+interpolace dat (A)
+*************************
+Q1: Na zaklade interpolacnich podminek "p(x_i) = f_i pro i=0,1,...,n" odvodte linearni system algebraickych rovnic pro koeficienty polynomu p(x). Sel by tento postup zobecnit pro pripad, kdy mame dane i hodnoty "f_i'" pro prvni derivace polynomu p(x) v bodech x0,...,xn? Pokud ano, vysvetlete ideu, pokud ne, vysvetlete proc. Jake jsou vyhody a nevyhody vypoctu p(x) timto zpusobem? Definujte alternativni pristup k nalezeni p(x), který je explicitni, tj. nevyzaduje reseni soustav rovnic.
+
+Q2: Odvodte Lagrangeuv interpolacni polynom p(x) pro dane interpolacni podminky "p(x_i) = f_i pro i=0,1,...,n". Na zaklade znalosti chyby interpolace pro hladke funkce (sem napisu ten klasicky odhad) porovnejte pouziti ekvidistantnich, Chebyshevovych a Legendrovych bodu pro polynomialni itnerpolaci. Jake body byste nezvaly optimalni pro 1D interpolaci a proc? Odvodte odhad podminenosti problemu interpolace v danych bodech x0,...,xn na zaklade Lebesgueovy konstanty.
+
+Q3: Vysvetlete pojem "spline" - definujte linearni spline pro interpolacni podminky "p(x_i) = f_i pro i=0,1,...,n" a odvodte explicitni vyjadreni jeho hodnoty v libovolnem bode x z intervalu (x0,xn). Okomentujte vyhody a nevyhody linerniho splinu a definujte kubicky spline. Porovnejte vyvoj interpolacni chyby pro polynomialni interpolaci, linearni spline a kubicky spline pro rostouci pocet bodu (tj. asymptoticky pro n -> +infty).
+
+
+
+Konecnost pocitace a stabilita algoritmu (A-B)
+*************************
+Q1: Vysvetlete rozdil mezi vypoctem na papire a v pocitaci a uvedte jednoduchy konkretni priklad. Cim je tento rozdil zpusoben?
+Jak tento rozdil ovlivnuje pouzivani teoreticky odvozenych vysledku v praxi? Podporte vasi odpoved alespon jendim prikladem ze semestru.
+Vysvetlete precizne pojem stabilního algoritmu, jak jsme si ho definovali na prednasce (neni nutna samotna definice s kvantifikátory,
+ale je nutne spravne slovy vystihnout jeji podstatu. Spravna definice jako takova je take mozna). Uvedte priklad stabilního algoritmu.
+
+
+
+Podminenost matematických problemu (A-B)
+*************************
+Q1: Vysvetlete precizne pojem cisla podminenosti matematickeho problemu, jak jsme si ho definovali na prednasce (neni nutna samotna definice s kvantifikátory,
+ale je nutne spravne slovy vystihnout jeji podstatu. Spravna definice jako takova je take mozna). U praktickych vypoctu se musi temer vzdy pocitat s chybou v datech - uvedte dva ruzne duvody proc, tj. odkud tyto chyby často prichazeji. Jak toto pozorovani souvisi s vasi definic vyse a co z toho vyplyva o nutnosti/zbytecnosti cisla podminenosti problemu pro praxi?
+Uvedte jeden priklad matematickeho problemu a odvodte jeho cislo podminenosti.
+
+
+
+numericka kvadratura zalozena na interpolaci (A)
+*************************
+Q1: Pro \int_a^b f dx ~~ sum_i f(xi)*w_i pro dane body x0,...,xn v intervalu (a,b) odvodte hodnoty kvadraturnich vah w_i zalozenych na polynomialni interpolaci v techto bodech. Pro jakou volbu bodu x0,...,xn ziskame tzv. Newton-Cotes kvadraturu a kterym bodum odpovida tzv. Gaussova (aka Gauss-Legendrova) kvadratura? Definujte pojem "rad kvadratury". Definujte pojem "kompozitni kvadratura". Co umite rici o chybe kvadraturnich pravidel zalozenych na interpolaci? Pro jake pripady je vhodne pouzivat kvadraturni pravidla a kdy (a proc) je nutne pouzivat jine metody pro numerickou integraci?
+
+
+
+numericka kvadratura Monte-Carlo (A)
+*************************
+Q1: Formulujte metodu Monte-Carlo importance sampling pro aproximaci integralu. Uvedte klasicky odhad chyby platny s pravdepodobnosti 1-epsilon.
+Jake jsou hlavni vyhody metody Monte-Carlo a jake jsou naopak jeji hlavni nevyhody? Jak lze tuto metodu adaptovat, abychom minimalizovali dopad
+těchto nevyhod?
+............
+
+
+
+numericke reseni ODR (A)
+*************************
+Q1: Odvodte explicitni a implicitni Eulerovu metodu (nikoliv pouze napiste) pro numericke reseni problemu [ y'(t)=f(t,y(t)) & y(t0)=y0 ].
+Pro danou rovnici a danou velikost kroku "tau" nakreslete 2 kroky explicitni/implicitni Eulerovy metody. 
+Definujte rad jednokrokove metody [ y_{n+1} = y_n + tau*Psi(n,tau,y_n,y_{n+1}) ] a uvedte rad explicitni/implicitni Eulerovy metody. K cemu je pojem rad metody dobry a co nam odane metode rika? Vysvetlete jak lze odvodit explcitni as implicitni metody vysich radu, napr. metody typu Runge-Kutta. Porovnejte silne a slabe stranky jednokrokovych implicitnich a explicitnich metod.
+
+Q2: Odvodte explicitni a implicitni Eulerovu metodu (nikoliv pouze napiste) pro numericke reseni problemu [ y'(t)=f(t,y(t)) & y(t0)=y0 ].
+Pro danou rovnici a danou velikost kroku "tau" nakreslete 2 kroky explicitni/implicitni Eulerovy metody. 
+Definujte A-stabilitu pro jednokrokovou metodu pro testovaci rovnici [ y'(t) = lambda * y(t) & y(0)=y0 ]. Odvodte oblast stability pro explicitni/implicitni Eulerovu metodu. Porovnejte silne a slabe stranky jednokrokovych implicitnich a explicitnich metod.
+
+
+
+numericke reseni nelinearnich algebraickych rovnic (A)
+*************************
+Q1: Pro F: R^n -> R^n odvodte Newtonovu metodu (nikoliv pouze napiste) pro aproximaci korene x* (tj. pro x* t., ze F(x*)=0). Jake podminky musi platit abychom mohli tuto metodu pouzit? Graficky znazornete tuto metodu pro specialni pripad n=1, tj. f: R -> R, danou na obrazku. Odvodte rad konvergence Newtonovy metody pro f: R -> R a okomentujte, ze jakych podminek tuto konvergenci ocekavate. Co lze rici o chovani Newtonovy metody pokud tyto podminky nejsou splneny?
+
+Q2: Zformulujte Banachovu vetu o kontrakci (ta sama jako Banachova veta o pevnem bode) a vysvetlete jeji vyuziti k aproximaci korene x* funkce F: R^n -> R^n (tj. k aproximaci x* t., ze F(x*)=0). Pro konkretni dane f,g: R -> R rozhodnete zda lze pouzit tuto vetu. Zformulujte Newtonovu metodu pro hledani aproximace korene F: R^n -> R^n (tj. k aproximaci x* t., ze F(x*)=0). Porovnejte vyhody a neyhody pouziti Banachovy vety vs pouziti Newtonovy metody pro aproximaci korenu.
+
+
+
+numericke reseni linearnich algebraickych rovnic - Gaussova eliminace & LU faktorizace (B)
+*************************
+Q1: Pro regularni matici A velikosti n-krat-n odvodte jeji LU rozklad (nikoliv pouze napiste). Za jakych podminek muze tento postup selhat? Jak byste v takovem pripade postupovali? Detailne odvodte novy, vylepseny postup v maticovem zapisu. Vysvetlete souvislost LU rozkladu matice A a Gaussovou eliminaci pro soustavu linearnich algebraickych rovnic Ax=b (pro dany n-dimenzionalni vektor b). Definujte pojem rustovy faktor a to jak souvisi se stabilitou techto algoritmu (neni treba psat vzorecky, ale pak je treba spravne popsat situaci slovy. vzorecky s komentarem jsou samozrejme take pripustne). Co lze obecne rici o velikosti rustoveho faktoru?
+
+Q2: Pro regularni matici A velikosti n-krat-n odvodte jeji LU rozklad (nikoliv pouze napiste). Za jakych podminek muze tento postup selhat? Jak byste v takovem pripade postupovali? Popiste novy, vylepseny postup (staci popsat zmenu oproti tomu, co jste odvodili vyse). Vysvetlete souvislost LU rozkladu matice A s Gaussovou eliminaci pro soustavu linearnich algebraickych rovnic Ax=b (pro dany n-dimenzionalni vektor b). Definujte cislo podminenosti matice A a napiste set-up pro studovani cisla podminenosti problemu Ax=b. Nacrtnete odvozeni cisla podmienosti problemu Ax=b.
+
+
+
+numericke reseni linearnich algebraickych rovnic - ortogonalizace & QR faktorizace (B)
+*************************
+Q1: Pro regularni matici A velikosti 4-krat-4 odvodte jeji QR rozklad pomoci Gram-Schmidtova ortogonalizacniho procesu. U tohoto procesu existuji dve varianty - tzv. klasicka a modifikovana. Uvedte, kterou jste pouzili a vysvetlete jak by se postup lisil pro tu druhou variantu. Porovnejte stabilitu techto algoritmu - jak presne se spocita QR rozklad matice A? Oznacili byste tyto algoritmy za stabilni? Porovnejte je s ostatnimi algoritmy pro vypocet QR rozkladu, ktere jsme na prednasce videli.
+
+Q2: Pro regularni matici A velikosti 3-krat-3 odvodte jeji QR rozklad pomoci Householderovych reflexi a nasledne pomoci Givensovych rotaci. Porovnejte stabilitu techto algoritmu - jak presne se spocita QR rozklad matice A? Definujte velicinu urcujici "ztratu ortogonality" a uvedte jeji vyvoj vzhledem k cislu podminenosti matice A pro kazdy z techto algoritmu. Porovnejte tento vypocet QR rozkladu s ostatnimi alternativami, ktere jsme na prednasce videli. Uvedte dva priklady, jeden pro ktery bude nejvyhodnejsi vyuzit Householderovy reflexe a druhy, pro ktery byste jako nejvhodnejsi metodu vypoctu QR rozkladu zvolili Givensovy rotace.
+
+
+
+numericke reseni linearnich algebraickych rovnic - iteracni resice (B)
+*************************
+Q1: Pro soustavu linearnich algebraickych rovnic Ax=b se ctvercovou regularni matici A odvodte Richardsonovu stacionarni iteracni metodu pro aproximaci reseni x. Na zaklade odvozeni ukazte nutnou podminku pro konvergenci teto metody pro libovolny vektor b a libovolny pocatecni vektor x0. Vysvetlete dve ruzna zobecneni Richardsonovy metody - obecne stacionarni metody zalozene na stepeni matice A a metody Krylovovskych podprostoru. Porovnejte vyhody a nevyhody pouzitri iteracnich s primych metod pro reseni Ax=b.
+
+
+
+problem nejmensich ctvercu - linearni (B)
+*************************
+Q1: Mejme linearni (!) model F urceny parametry theta (vektor delky n), ktery mapuje input x na output F(x,theta). Predpokladejme, ze proces, ktery nas model F aproximuje, muzeme pozorovat a mame tedy k dispozici namerene outputy y pro inputy x (x,y jsou vektory delky m). Formulujte tzv MLE odhad (maximum likelihood estimate) pro parametry theta pro dane F, x a y. Predpokladejte, ze chyba modelu y - F(x,theta) odpovida normalnimu rozdeleni a odvodte z MLE formulace matematickou formulaci problemu nejmensich ctvercu. Na zaklade linearity odvodte jeho maticovou formulaci a uvedte dva ruzne zpusoby reseni tohoto problemu. U kazdeho ze spusobu vyzdvihnete jeho klady a zapory.
+
+Q2: Mejme problem nejmensich ctvercu zapsany maticovou formulaci A*theta=b. Odvodte za jakych podminek existuje presne reseni tohoto problemu. Je urceno jednoznacne? Pokud ano, dokazte, pokud ne, formulujte dodatecne podminky, ktere uz jednoznacnost zaruci. Muze se v praxi stat, ze presne reseni neexistuje (tj., ze vase podminky vyse nejsou splneny)? Vysvetlete svou odpoved na konkretnim prikladu. Pokud by se to stat mohlo, popiste, jak problem zmenit na jiny, resitelny problem. Vysvetlete rozdil mezi puvodnim a pozmenenym problemem a duvod proc jste se rozhodli puvodni problem zmenit prave takto.
+
+
+
+
+problem nejmensich ctvercu - nelinearni & optimalizace (A)
+*************************
+Q1: Mejme model F urceny parametry theta (vektor delky n), ktery mapuje input x na output F(x,theta). Predpokladejme, ze proces, ktery nas model F aproximuje, muzeme pozorovat a mame tedy k dispozici namerene outputy y pro inputy x (x,y jsou vektory delky m). Formulujte tzv MLE odhad (maximum likelihood estimate) pro parametry theta pro dane F, x a y. Predpokladejte, ze chyba modelu y - F(x,theta) odpovida normalnimu rozdeleni a odvodte z MLE formulace matematickou formulaci problemu nejmensich ctvercu, coby minimalizacniho/optimalizacniho problemu. Uvedte tri zakladni skupiny numerickych metod pro reseni minimalizacnich problemu. U kazde vysvetlete zakladni myslenku, na ktere jsou zalozeny a uvedte jednu konkretni metodu.
+
+
+
+singularni rozklad matice & numericka aproximace vlastnich paru matice (B)
+*************************
+Q1: Napiste set-up pro problem vlastnich cisel pro ctvercovou matici A a odvodte mocninou metodu bez normalizace. K cemu ma tato metoda konvergovat?
+Na zaklade odvozeni ukazte jake jsou nutne podminky pro konvergenci teto metody a vysvetlete jak, kde a proc se v praxi pridava normalizace.
+Jak byste tuto metodu upravili, aby aproximovala vl. par nejblizsi danemu komplexnimu cislu z = alpha + i*beta?
+Uvedte vetu, ktera charakterizuje nejlepsi aproximaci dane matice A (m-krat-n) matici hodnosti r. 
+Vysvetlete alespon jeden prakticky priklad, ve kterem se tento vysledek bezne pouziva a presne popiste matematicky zapis tohoto problemu a jak se na tento matematicky problem pouzije vami formulovana veta.
