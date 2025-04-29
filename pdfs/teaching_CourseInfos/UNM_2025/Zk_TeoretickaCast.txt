@@ -105,7 +105,7 @@ Q2: Pro regularni matici A velikosti 3-krat-3 odvodte jeji QR rozklad pomoci Hou
 
 numericke reseni linearnich algebraickych rovnic - iteracni resice (B)
 *************************
-Q1: Pro soustavu linearnich algebraickych rovnic Ax=b se ctvercovou regularni matici A odvodte Richardsonovu stacionarni iteracni metodu pro aproximaci reseni x. Na zaklade odvozeni ukazte nutnou podminku pro konvergenci teto metody pro libovolny vektor b a libovolny pocatecni vektor x0. Vysvetlete dve ruzna zobecneni Richardsonovy metody - obecne stacionarni metody zalozene na stepeni matice A a metody Krylovovskych podprostoru. Porovnejte vyhody a nevyhody pouzitri iteracnich s primych metod pro reseni Ax=b.
+Q1: Pro soustavu linearnich algebraickych rovnic Ax=b se ctvercovou regularni matici A odvodte Richardsonovu stacionarni iteracni metodu pro aproximaci reseni x. Na zaklade odvozeni ukazte nutnou podminku pro konvergenci teto metody pro libovolny vektor b a libovolny pocatecni vektor x0. Vysvetlete dve ruzna zobecneni Richardsonovy metody - obecne stacionarni metody zalozene na stepeni matice A a metody Krylovovskych podprostoru. Porovnejte vyhody a nevyhody pouziti iteracnich s primych metod pro reseni Ax=b.
 
 
 

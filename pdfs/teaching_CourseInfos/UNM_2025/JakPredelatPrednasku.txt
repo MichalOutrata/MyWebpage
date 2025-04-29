@@ -8,6 +8,8 @@
 - u vsech zadani nechat vykreslene spravne odpovedi
 - zkratit ODR o jednu přednášku a udelat SDE na zaklade PatrickFarrell project
 - promyslet AI naseptavani kodu - co s tim?
+- preelat oznaceni veci v colabu - kategorie "naproste minimum (soucast zapoctu)", "chci vecem rozumet (soucast zapoctu)", "nevim co s volnym vikendem"
+- vytvorit dokument s nejcastejsima otazkama z predchozich ronciku a jejich odpovedma
 
 
 
@@ -264,3 +266,15 @@
  - kviz na ridkost matic byl nezazivny a asi moc lehky
  - u Gram-Schmidta jsem vylozil rozdil CGS vs MGS uz pro matici 3x3 a bylo to lepsi
  - dvakrat jsem se zakecal, dost sem je nechaval pracovat samostatne a stejne jsem tuhle prednasku stihnul just right
+
+
+#### Týden 10 -- 19. - 20. přednáška 
+ - nestihal jsem se moc pripravit
+ - u Givense jsem puvodne zacal nulovat odspoda a ne odshora! - nenapsal jsem si to pred hodinou v Rn
+ - prvni hodinu jsem o 20 minut pretah a stihnul jsem jentaktak odvodit Givens+HH
+ - v druhy hodine jsem shrnul stabilitu a vypocetni naroky Givense a HH & QR/LU na jeden system vs na nekolik systemu se stejnou matici soustavy
+ - zbylo mi 45 minut a vubec sem nestihnul iteracni metody -> musim je delat porakticky odznova na dalsi hodine
+ - nedelali jsme ani jeden kviz
+ - asi je zapotrebi plne obetovat dvojhodinu na HH+Givens & dodelavky okolo & kvizy
+ - iteracni udelat pristi hodinu
+ - nebyl sem uplne fresh - byl jsem na naslechu v Troji a pak byl den firem, takze sem se furt bavil s dalsima a dalsima lidma - ted sem dost vyzvejkanej
