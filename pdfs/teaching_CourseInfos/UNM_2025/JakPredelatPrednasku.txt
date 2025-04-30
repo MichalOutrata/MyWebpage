@@ -280,3 +280,27 @@
  - asi je zapotrebi plne obetovat dvojhodinu na HH+Givens & dodelavky okolo & kvizy
  - iteracni udelat pristi hodinu
  - nebyl sem uplne fresh - byl jsem na naslechu v Troji a pak byl den firem, takze sem se furt bavil s dalsima a dalsima lidma - ted sem dost vyzvejkanej
+
+#### Týden 11 -- 21. přednáška 
+ - udelal jsem poradne odvozeni stacionarnich metod, vsechno fajn
+ - stihnul jsem to za 1:20 a to jsem delal dukaz Banachovy vety (a nechaval je ho tak nejak odvodit)
+ - GMRES jsem udelal skrz Richardsona. netvarili se na to nijak extra, ale dotazy taky nebyly
+ - kdybych nedelal dukaz Banachovy vety, tak bych stihnul ukazat Jacobi/GS jako "predpodminovani" --> to by bylo dobry, abych pak mohl pouzit ferovej kviz
+		- ted jsem mel na kvizu GMRES vs Jacobi - to neni uplne porovnatelny (Jacobi by mel byt srovnavan s predpodminenym GMRES)
+		- v kvizu bych mohl nafingovat rychlost konvergence Jacobiho/GS tak aby behem deseti iteraci kleslo reziduum o rad -> pak otazka v kvizu na odvozeni 			  nejvetsiho vl. cisla reziduove iteracni matice I-AM^{-1} ---- dodelat
+
+
+#### Týden 10 cvika
+ * Givensovy rotace jsou dost tezky na nakodeni -> upravit kod tak aby bezel i s Givensem nenakodenym nebo nechat kostru Givense (asi spis)
+
+
+-------------------------------------------------------
+----------------  Nejmensi ctverce ---------------------
+-------------------------------------------------------
+
+#### Týden 11 -- 22. přednáška 
+ - zabralo mi to celou prednasku
+ - nemel jsem uplne dobre rozmysleny ten konec - je treba tsi to cele napsat, jak presne brat ten model F abych dostal A*theta = b
+ - ve skriptech mam F = a_i*theta  + c, ale na prednasce jsem sklouznul k tomu, ze F = x_i*theta + c (!!)
+ - je zapotrebi si uvedomit, ze to ma byt "F = a_i*theta  + c", kde a_i, c_i jsou nejake zname funkce x_i (!!)
+	- napr. vim ze u elipsy/paraboly tam budu mit nejaky ty mocniny tech x_i
