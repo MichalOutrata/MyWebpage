@@ -215,7 +215,9 @@
  - nemeli komplexni cisla poradne -> trochu problem na tu oblast stability
 
 
-
+#### Týden 5 & 6 -- cvika
+* predelat to co po nich chci na implementaci RungeKutta - pridat hinty jak nakodit to "reshape", v podstate to udelat za ne
+* 
 
 -------------------------------------------------------
 --------------  Numericke reseni NelinAlgRic ------------------
