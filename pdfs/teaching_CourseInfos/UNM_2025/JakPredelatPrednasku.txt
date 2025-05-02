@@ -10,6 +10,7 @@
 - promyslet AI naseptavani kodu - co s tim?
 - preelat oznaceni veci v colabu - kategorie "naproste minimum (soucast zapoctu)", "chci vecem rozumet (soucast zapoctu)", "nevim co s volnym vikendem"
 - vytvorit dokument s nejcastejsima otazkama z predchozich ronciku a jejich odpovedma
+- na zapoctove projekty musi mit kazda uloha napsano kdo ji delal a kdo ji kontroloval (jako Dalibor smid cvika lingebra pro fyziky)
 
 
 
