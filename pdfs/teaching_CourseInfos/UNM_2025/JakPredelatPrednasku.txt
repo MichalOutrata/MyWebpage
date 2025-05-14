@@ -322,3 +322,30 @@
 #### Týden 12 -- 24. přednáška 
  - udelali jsme prehled minimalizacnich metod, zakladni myslenky metod "derivative-free, 1st order, 2nd order"
  - nelder-mead jsem ukazoval na projektoru
+
+
+
+-------------------------------------------------------
+----------------  Data-Science & SVD ---------------------
+-------------------------------------------------------
+
+#### Týden 13 -- 25. přednáška
+ - docela dobry, pripravil jsem si dopredu ty 
+ - komprese obrazku v pohode, kviz meli vsichni spravne
+ - data-analysis prekvapive dobry, ale prochazel jsem si to pred prednaskou
+ - pridat "eigenfaces" aplikaci na tu data analysis, treba jen ukazek obrazku, jako "prototypicke uzivatele"
+ - celkem dobre stihatelny (a to sem na zacatku mel 10min admin o zkouskach, ankete atd)
+
+
+
+-------------------------------------------------------
+----------------  problem vl. c. ---------------------
+-------------------------------------------------------
+
+#### Týden 13 -- 26. přednáška
+ - docela dobry, ale trochu jsem tam vahal pokud jde o reprezentaci mocninne metody coby banachovy vety, ta kontrakce G odpovida 1/lambda_1 * A, ale pak neni jasne proc
+   1/lambda_2 * A nebude konvergovat k s2 -> museli bychom jit do detailu ty lipschitzovskosti, ktera jde asi ukazat pouze pro 1/lambda_1 * A .... ale to jsem tam nedelal
+   a jen jsem tu banachovu vetu nechal jako motivaci pro mocninnou metodu tak jak jizname (a hezky to zduvodni tu normalizaci)
+ - nemel jsem dobre pripravenou tu Google-aplikaci, takze to chce lepe rozepsat (i do skript)
+ - trvalo mi to cca 1h:10m (ale kvuli delsi pauze jsme pretahovali)
+
