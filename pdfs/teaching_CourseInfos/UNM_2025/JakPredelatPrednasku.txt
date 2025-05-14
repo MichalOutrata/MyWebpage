@@ -8,9 +8,13 @@
 - u vsech zadani nechat vykreslene spravne odpovedi
 - zkratit ODR o jednu přednášku a udelat SDE na zaklade PatrickFarrell project
 - promyslet AI naseptavani kodu - co s tim?
-- preelat oznaceni veci v colabu - kategorie "naproste minimum (soucast zapoctu)", "chci vecem rozumet (soucast zapoctu)", "nevim co s volnym vikendem"
+- predelat oznaceni veci v colabu - kategorie "naproste minimum (soucast zapoctu)", "chci vecem rozumet (soucast zapoctu)", "nevim co s volnym vikendem"
 - vytvorit dokument s nejcastejsima otazkama z predchozich ronciku a jejich odpovedma
 - na zapoctove projekty musi mit kazda uloha napsano kdo ji delal a kdo ji kontroloval (jako Dalibor smid cvika lingebra pro fyziky)
+- kvizy udelam ze odevzdani je do dvou tydnu po posledni prenasce daneho tema -> pak az zverejnim body
+- v kvizu na GE/LU mam v otazce na nepravdive statements "chyba odpovida kappa*eps" jako spravne, ale je to blbe kdyz se perturbuje i matice
+
+
 
 
 
@@ -186,6 +190,7 @@
  - explicitni metody typu RK je zapotrebi lepe rozpracovat - uz jsem je na konci moc nestihal, tak sem spechal, ale je nutne
    lepe ospravedlnit ten tvar - skrze "stage vectors odpovidaji mezikrokum"
  - u explicitnih metod ne vsem doslo, ze k1, ..., ks zaviseji na (t_n-1, y_n-1) a nikoliv pouze na (t_0, y_0)
+ - v colabu mame prirustmovou funkci \Phi jako y^{(1)} = \Phi (y0,t0,tau) VS v praxi je to jen ten prieustek -> predelat colab
 #### cele bych to predelal následujícím zpusobem
 	- motivace
 		* kofein v tele (ExploringODEs) - linearni ODR
@@ -305,3 +310,15 @@
  - ve skriptech mam F = a_i*theta  + c, ale na prednasce jsem sklouznul k tomu, ze F = x_i*theta + c (!!)
  - je zapotrebi si uvedomit, ze to ma byt "F = a_i*theta  + c", kde a_i, c_i jsou nejake zname funkce x_i (!!)
 	- napr. vim ze u elipsy/paraboly tam budu mit nejaky ty mocniny tech x_i
+
+
+#### Týden 12 -- 23. přednáška 
+ - udelal jsem rychle opacko cele minule hodiny "max Pst(zi-eps < Zi < zi+eps)" <~> "min epx{ -1/2(b-A*theta) }"
+ - ukazal jsem, ze ze potrebujeme F linearni pouze vuci theta, nikoliv vuci x
+ - ukazal jsem formulace LS pro kruznici - jak pro (t_i,[xi, yi]) model, tak pro (xi,yi) model
+ - udelali jsme samostatnou praci na 25 minut odvozeni existence & jednoznacnost reseni A*theta=b ve smyslu nejmensich ctvercu
+ - celkem asi 1h:50m
+
+#### Týden 12 -- 24. přednáška 
+ - udelali jsme prehled minimalizacnich metod, zakladni myslenky metod "derivative-free, 1st order, 2nd order"
+ - nelder-mead jsem ukazoval na projektoru
