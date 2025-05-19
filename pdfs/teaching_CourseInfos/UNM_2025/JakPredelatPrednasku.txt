@@ -14,6 +14,10 @@
 - kvizy udelam ze odevzdani je do dvou tydnu po posledni prenasce daneho tema -> pak az zverejnim body
 - v kvizu na GE/LU mam v otazce na nepravdive statements "chyba odpovida kappa*eps" jako spravne, ale je to blbe kdyz se perturbuje i matice
 
+Zadani zkousky
+------
+ * prakticka - QR rozklad formulovat jako nastroj pro reseni obdelnikovych soustav (tj. program by mel fungovat pro obdelnikove matice)
+ * teoreticka - Monte Carlo ne jen uvest, ale odvodit
 
 
 
@@ -160,6 +164,7 @@
 -----------  Numericka integrace - MonteCarlo --------------
 -------------------------------------------------------
 #### Týden 4 -- 7. - 8. přednáška PRESUNOUT AZ NAKONEC?
+- predelat skripta aby MC bylo odvozno jako "prumer \int_a^b f dx ~ f(xi)*(b-a)"
 - navadeci otazky vedou k \int f ~ 1/N \sum_i f(x_i) -> zduraznit ze dava smysl, pouze pokud vsechny body jsou stejne pravdepodobne -> pak prvni kviz
 - pak mit rozmysleny uvod na spojite nahodne veliciny -> co to znamena ze nahodna velicina ma rovnomerne rozdeleni
 	- tohle jsem ani nemel dobre pripravene pred hodinou ja -> JE NUTNE SI TO SAM ODRIKAT (jhako stabilitu a podminenost)
@@ -275,6 +280,9 @@
  - u Gram-Schmidta jsem vylozil rozdil CGS vs MGS uz pro matici 3x3 a bylo to lepsi
  - dvakrat jsem se zakecal, dost sem je nechaval pracovat samostatne a stejne jsem tuhle prednasku stihnul just right
 
+#### Týden 9 cvika
+ * omylem tam maji vyplneny resic pro horni trojuhelnikovou matici
+
 
 #### Týden 10 -- 19. - 20. přednáška 
  - nestihal jsem se moc pripravit
@@ -286,6 +294,13 @@
  - asi je zapotrebi plne obetovat dvojhodinu na HH+Givens & dodelavky okolo & kvizy
  - iteracni udelat pristi hodinu
  - nebyl sem uplne fresh - byl jsem na naslechu v Troji a pak byl den firem, takze sem se furt bavil s dalsima a dalsima lidma - ted sem dost vyzvejkanej
+
+#### Týden 10 cvika
+ * Gram-Schmidt algoritmy jsou napsany tak aby vracely Q obdelnikovou a R ctvercovou
+ * HH/Givens jsou napsany tak, aby vracely Q ctvrecovou a R obdelnikovou
+ * Jde to nejak unifikovat? Ano jde -> nechat jako teoreticky cviceni, ze to odpovida jen "zahazovani v Q a vypolstrovavani nulama"
+ * Rozmery vystupnich matic v zadani Gram-Schmidt jsou blbe (obe byli ctvercove) - zkontrolovat
+
 
 #### Týden 11 -- 21. přednáška 
  - udelal jsem poradne odvozeni stacionarnich metod, vsechno fajn
@@ -336,7 +351,8 @@
  - pridat "eigenfaces" aplikaci na tu data analysis, treba jen ukazek obrazku, jako "prototypicke uzivatele"
  - celkem dobre stihatelny (a to sem na zacatku mel 10min admin o zkouskach, ankete atd)
 
-
+#### Týden 13 cvika
+ * testovani KompreseObrazku pracovala jeste s jpg formatem a ne s png -> opravit
 
 -------------------------------------------------------
 ----------------  problem vl. c. ---------------------
@@ -348,4 +364,8 @@
    a jen jsem tu banachovu vetu nechal jako motivaci pro mocninnou metodu tak jak jizname (a hezky to zduvodni tu normalizaci)
  - nemel jsem dobre pripravenou tu Google-aplikaci, takze to chce lepe rozepsat (i do skript)
  - trvalo mi to cca 1h:10m (ale kvuli delsi pauze jsme pretahovali)
+ - nezminil jsem Rayleigh quotient na aproximaci vl. c.:  A*v ~ lambda*v -> vT*A*v ~ lambda*vT*v -> lambda ~ vT*A*v/vT*v
+
+#### Týden 13 cvika
+ * Mocnina metoda ma na vstupu puye "pocetiter" a nkoliv "tol" ---> idealne všechny iteracni metody by mely mit i zastavovaci kritéria na presnost
 
