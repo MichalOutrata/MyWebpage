@@ -18,6 +18,7 @@ Zadani zkousky
 ------
  * prakticka - QR rozklad formulovat jako nastroj pro reseni obdelnikovych soustav (tj. program by mel fungovat pro obdelnikove matice)
  * teoreticka - Monte Carlo ne jen uvest, ale odvodit
+ * teoreticka - GaussEl q2 -> misto odvozeni LU dat odvozeni podminenosti Ax=b?
 
 
 
@@ -243,6 +244,7 @@ Zadani zkousky
 #### Týden 7 -- 13. přednáška 
  - ten kviz na rychlost konvergence Newtona byl tricky - geoimetricka predstava je, ze cim vetsi alpha, tim vis zacinam, ale i tim strmejsi tecna. Protoze to je exponenciala, tak se vyplati zacinat vys a mit strmejsi tecnu, protoze exponenciala roste rychleji nez ta jeji tecna.
  - lepe pripraveny priklad na Banachovu vetu o kontrakci - chtelo by to rozepsat vice do detailu
+ - lze uplne krasne vyit cos^2(x) - hladka funkce, tj. mame mean value theorem -> d/dx cos^2(x) = -2*cos*sin = -sin(2x) -> vim an jakem intervalu je to kontrakce
 
 
 
