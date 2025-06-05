@@ -19,6 +19,9 @@ Zadani zkousky
  * prakticka - QR rozklad formulovat jako nastroj pro reseni obdelnikovych soustav (tj. program by mel fungovat pro obdelnikove matice)
  * teoreticka - Monte Carlo ne jen uvest, ale odvodit
  * teoreticka - GaussEl q2 -> misto odvozeni LU dat odvozeni podminenosti Ax=b?
+ * teoreticka - dokazat Banachovu vetu
+ * teoreticka - odvodit iteracni resice pro obecne stepeni - ne jen Richardsona
+ * teoreticka - u ODRek anapsat par kroku impl. a expl. Eulera (nekteri nebyli schopny rozepsat tu rovnici pro konkretni ODRko
 
 
 
