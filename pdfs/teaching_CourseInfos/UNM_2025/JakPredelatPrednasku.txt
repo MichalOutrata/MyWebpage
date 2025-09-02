@@ -13,15 +13,20 @@
 - na zapoctove projekty musi mit kazda uloha napsano kdo ji delal a kdo ji kontroloval (jako Dalibor smid cvika lingebra pro fyziky)
 - kvizy udelam ze odevzdani je do dvou tydnu po posledni prenasce daneho tema -> pak az zverejnim body
 - v kvizu na GE/LU mam v otazce na nepravdive statements "chyba odpovida kappa*eps" jako spravne, ale je to blbe kdyz se perturbuje i matice
+- obecne mame hodne teorie na rozklad matic za ucelem reseni soustav, ale ve zkousce se vlastne vubec na reseni soustav neptam vubec (!!!)
+- definice velke O chybela -- matlo studenty a stalo se, ze nekterym krokm nerozumneli a mysleli si, ze to je kvuli neznalosti definice O
+- backward error IS NOT THE SAME AS residual - see ASNA -> rewrite the googlesheet on stability and cond (also that one has been improve for ZNM)
 
 Zadani zkousky
 ------
  * prakticka - QR rozklad formulovat jako nastroj pro reseni obdelnikovych soustav (tj. program by mel fungovat pro obdelnikove matice)
+ * prakticka - Kvadratury formulovat jako nalezeni kvadraturniho pravidla pro dane kvadraturni body (ne Gauss vs NC ..)
  * teoreticka - Monte Carlo ne jen uvest, ale odvodit
  * teoreticka - GaussEl q2 -> misto odvozeni LU dat odvozeni podminenosti Ax=b?
  * teoreticka - dokazat Banachovu vetu
  * teoreticka - odvodit iteracni resice pro obecne stepeni - ne jen Richardsona
  * teoreticka - u ODRek anapsat par kroku impl. a expl. Eulera (nekteri nebyli schopny rozepsat tu rovnici pro konkretni ODRko
+ * teoreticka - MonteCarlo se musi predelat podle zvladnuteho material
 
 
 
@@ -98,6 +103,7 @@ Zadani zkousky
 
 #### Týden 2 -- 3.přednáška
 - pouze jedna přednáška a vyšla mi celkem akorát
+- pridat asympt. odhad a pokles chyby pro Legendre/Cheb body
 - spliny jsem neměl dostatečně dobře připravené -> zlepšit didaktickou strukturu:
 	-> ja zacal mluvenim o interpolaci po castech polynomem 1. stupne (skrz kazde 2 body) a pak 3. stupne (skrz 4 body)
 	-> misto toho bych mel mluvit o 1. stupne (skrz kazde 2 body) a 3. stupne, který fituje derivace (skrz kazde dva body)
@@ -297,6 +303,7 @@ Zadani zkousky
  - zbylo mi 45 minut a vubec sem nestihnul iteracni metody -> musim je delat porakticky odznova na dalsi hodine
  - nedelali jsme ani jeden kviz
  - asi je zapotrebi plne obetovat dvojhodinu na HH+Givens & dodelavky okolo & kvizy
+ - pridat kviz, kde mam graf na loglog-scale "velikost matice vs cas kodu" --> studenti maj odhadnout pocet FLOPu (cvicime schopnost cist loglog scale)
  - iteracni udelat pristi hodinu
  - nebyl sem uplne fresh - byl jsem na naslechu v Troji a pak byl den firem, takze sem se furt bavil s dalsima a dalsima lidma - ted sem dost vyzvejkanej
 
