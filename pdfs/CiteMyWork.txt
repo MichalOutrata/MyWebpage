@@ -6,7 +6,6 @@
   editor    = {Dost{\'{a}}l, Z. and Kozubek, T. and Klawonn, A. and Ulrich, L. and Pavarino, L. F. and {\v{S}}{\'{i}}stek, J. and Widlund, O. B.},
   publisher = {Springer {N}ature, {S}witzerland},
   series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
-  groups    = {MyPublications, MixedPrecision_and_DD, 2024_DivideConquerOptimize},
   url       = {https://doi.org/10.1007/978-3-031-50769-4_46},
 }
 
@@ -20,7 +19,6 @@
   publisher = {Springer {B}erlin, {H}eidelberg},
   series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
   volume    = {145},
-  groups    = {MyPublications, 2024_DivideConquerOptimize},
   url       = {https://doi.org/10.1007/978-3-030-95025-5_50},
 }
 
@@ -32,7 +30,6 @@
   number    = {3},
   pages     = {387--402},
   volume    = {24},
-  groups    = {MyPublications},
   publisher = {Springer},
   url       = {https://doi.org/10.1007/s11228-016-0377-4},
 }
@@ -44,7 +41,6 @@
   year    = {2023},
   issn    = {0024-3795},
   doi     = {https://doi.org/10.1016/j.laa.2023.07.008},
-  groups  = {MyPublications, 2024_DivideConquerOptimize, RaniGhysels_Colab},
 }
 
 @Article{outrata2024pade,
@@ -54,7 +50,6 @@
   year      = {2024},
   pages     = {319--341},
   volume    = {59},
-  groups    = {MyPublications, 2024_DivideConquerOptimize},
   publisher = {{K}ent {s}tate {U}niversity},
   url       = {https://doi.org/10.1553/etna_vol59s319},
 }
@@ -68,7 +63,14 @@
   pages   = {A2047-A2072},
   volume  = {46},
   doi     = {10.1137/23M1604266},
-  groups  = {MyPublications, 2024_DivideConquerOptimize, RaniGhysels_Colab},
+}
+
+@Unpublished{outrata2025multiprecision,
+  author = {Outrata, M. and Szyld, D. B.},
+  note   = {submitted},
+  title  = {Multiprecision computations with Schwarz methods},
+  year   = {2025},
+  url    = {https://michaloutrata.com/pdfs/preprints/2025_OutrataSzyld_MPSM.pdf},
 }
 
 @Unpublished{outrata2024ham,
@@ -76,7 +78,6 @@
   note   = {To be submitted},
   title  = {Preconditioning parametrized linear systems: hierarchical maps approach},
   year   = {2024},
-  groups = {MyPublications, 2024_DivideConquerOptimize},
   url    = {https://michaloutrata.com/pdfs/preprints/2023_deSturlerOutrata_HAM.pdf},
 }
 
@@ -86,6 +87,5 @@
   title     = {Schwarz methods, {S}chur complements, preconditioning and numerical linear algebra},
   year      = {2022},
   address   = {University of {G}eneva, {M}ath {D}epartment},
-  groups    = {MyPublications, PreconditionerMaps, 2024_DivideConquerOptimize},
   publisher = {Rue de Conseil-General 2--4, Geneva 4, Switzerland},
 }
