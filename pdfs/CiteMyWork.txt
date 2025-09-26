@@ -70,7 +70,7 @@
   note   = {submitted},
   title  = {Multiprecision computations with Schwarz methods},
   year   = {2025},
-  url    = {https://michaloutrata.com/pdfs/preprints/2025_OutrataSzyld_MPSM.pdf},
+  url    = {https://arxiv.org/abs/2509.20937},
 }
 
 @Unpublished{outrata2024ham,
