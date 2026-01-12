@@ -92,14 +92,9 @@ Zadani zkousky
 #### Týden 1 -- cvika
 - cviko0: 
 	* vypíchnout numpy prochazeni arrays (for in in range(..)) vs python prochazeni arrays (for x in x_totry)
-	* vypichnout ze ApproxSqrt2_x aproximuje jen to "x" -> nekomu to nebylo jasne
 - cviko1:
 	* re-pouzivani funkci - kdyz jsem si to zadefinoval vyse, tak to nadále muzu pouzivat
 	* inicializace poli - vysvetlit detailne proc to potrebujeme
-	* chebyshevovy body - formulka nahore je pro "i=0,...,n" ale funkce je pro "n" bodu
-	* chebyshevovy body - formulka nam da spatne serazene Cheb body (od 1 do -1)
-	* ob tyto veci bych nechal ale explicitne bych napsal do zadani (hint?), at si na to daji pozor
-
 
 #### Týden 2 -- 3.přednáška
 - pouze jedna přednáška a vyšla mi celkem akorát
@@ -111,10 +106,8 @@ Zadani zkousky
 #### Týden 2 -- cvika
 - cviko0: 
 	* vypichnout "# Vas kod" pro LinearniSpline - nekteri nechapali, ze (ani jak) pouzivat tu funkci na hledani toho intervalu (x_i,x_ip1)
-	* U testu pro kubicky spline testuju linearni spline
-	* chyba interpolace Chebyshev vs. ekvidistantni, kde rozkresluju chybu po bodech -> obrazek chci aby odpovidal n=31 (bylo to blbe)
-	* neporozumeni tomu, jak inicializovat ty pole pro  chybu u splinu (err_kub, err_lin) -> lepe vysvetlit (napsat jako komentar v kodu?)
 	* pridat teoreticke cviko na plotovani chyby - jak vypada exponencialni poklles chyby v semiology a jak v loglog
+
 
 
 -------------------------------------------------------
@@ -138,13 +131,7 @@ Zadani zkousky
 
 #### Týden 2 -- cvika
 - cviko0: 
-	* podrobneji popsat smysl cviceni A_theta, aby bylo vice jasne proc delaji toho Taylora
-	* ten Taylor je tam udelany spatne v tom hintu (melo by byt (x/2)^2 misto x^2/2)
-- cviko1:
-	* podrobneji popsat np.finfo32
-	* chybi numericky test pro Alg1_Srt2
-	* numericky test pro Alg2_Srt2 ma test jen po jedne iteraci, pridat i neco na druhou
-
+	* podrobne vvysvetlit smysl cviceni A_theta, aby bylo vice jasne proc delaji toho Taylora
 
 #### Týden 3 -- 5.přednáška
 - poradne udelana podminenost a stabilita - trvalo to dele, takze jsem nestihl udelat Cramer's rule jako nestabilni
