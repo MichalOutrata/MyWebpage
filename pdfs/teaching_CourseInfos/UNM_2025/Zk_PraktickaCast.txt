@@ -5,17 +5,23 @@ Prosli jsme 10 oblasti numerických vypoctu z nichz 9 zahrnovalo 'intro/jednoduc
 - naimplementovat & pouzit linearni spline k interpolaci funkce f: R -> R
 - naimplementovat & pouzit NC/Gaussovu kvadraturu k aproximaci integralu \int_a^b f(x) dx
 - naimplementovat & pouzit uniformni Monte-Carlo k aproximaci vice-dimenzionalniho integralu
-- naimplementovat & pouzit impl/expl Eulera k aproximaci reseni systemu ODR
+- naimplementovat & pouzit impl/expl Eulera k aproximaci reseni systemu ODR (funkce pro reseni algebraickych rovnic je poskytnuta)
 - naimplementovat & pouzit Newtonovu metodu k aproximaci korene funkce F: R^d -> R^d
-- naimplementovat & pouzit resic soustavy lin. alg. rovnic s horni/dolni trojuhelnikovou matici
-- naimplementovat & pouzit QR rozklad ctvercove matice (nikoliv vestavenou funkci, ale je na vas ktery algoritmus zvolite)
-- naimplementovat & pouzit SteepestDescent/Newtona pro minimalizaci dane funkce
+- naimplementovat & pouzit resic soustavy lin. alg. rovnic skrze LU rozklad (pouzijeme pythonovsky) a reseni soustav s trojuhelnikovymi maticemi (vlastni kod)
+- naimplementovat & pouzit resic soustavy lin. alg. rovnic skrze QR rozklad (nikoliv vestavenou funkci, ale je na vas ktery algoritmus zvolite) a reseni soustavy s trojuhelnikovou matici (pouzijeme pythonovsky kod)
+- naimplementovat & pouzit SteepestDescent/Newtona pro minimalizaci dane funkce (funkce pro line-search a aproximaci derivaci jsou poskytnute)
 - naimplementovat & pouzit mocninnou metodu k aproximaci dominantního vl. paru dane matice A
 
 Vynechavame Tema 2 (podminenost-stabilita)
+
+Zadani bude obsahovat stejnou hlavicku a anotaci funkce jako byla v zadani prislusneho worksheetu a import vsech potrebnych knihoven. Uvnitr funkce nebude zadny kod (s vyjmkou linearniho splinu, kde bude ponechana funkce na "hledani spravneho podintervalu"). Po funkci budou nasledovat automaticke testy, podobne jako ve worksheetu.
+
+Zkouska bude probihat na lokalnich pocitacich v ucebnach v Karline, odpojenych od internetu. Pristup k internetu bude mozny skrze pocitac u "katedry", kde je mozne vyhledavat cokoliv "ohledne syntaxe", ale neni mozne dohledavat cokoliv ohledne samotne metody.
 
 Obecne hodnoceni
 - spravny matematicke odvozeni/zapsani vedle na papire
 - inicializace poli/struktur pro ukladani vysledku
 - spravna kostra kodu (pocet for-cyklu a jejich zanoreni do sebe, odkud-kam cyklus jede; analogicky pro if-else/while/...)
 - spravne pokyny uvnitr kostry
+
+Silne doporucuji natrenovat debuggovani skrze vhodne umisteni "print()" (ikdyz doufam, ze po celem semestru uz je to druha prirozenost)
