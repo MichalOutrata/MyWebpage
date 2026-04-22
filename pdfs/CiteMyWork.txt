@@ -65,6 +65,41 @@
   doi     = {10.1137/23M1604266},
 }
 
+@Article{rani2025efficient,
+  author  = {Rani, A. and Ghysels, P. and Howle, V. and Long, K. and Outrata, M.},
+  journal = {{SIAM} {J}ournal on {S}cientific {C}omputing},
+  title   = {Efficient Solution of Fully Implicit {R}unge–{K}utta Methods for Linear Wave Equations},
+  year    = {0},
+  number  = {0},
+  pages   = {S183-S206},
+  volume  = {0},
+  doi     = {10.1137/24M1677484},
+}
+
+@Article{outrata2026onrecent,
+  author  = {Outrata, M.},
+  journal = {Proceedings in {A}pplied {M}athematics and {M}echanics},
+  title   = {On Recent Advances of Spectral Analysis for Systems Arising From Fully-Implicit {RK} Methods},
+  year    = {2026},
+  number  = {1},
+  pages   = {e70082},
+  volume  = {26},
+  doi     = {https://doi.org/10.1002/pamm.70082},
+}
+
+@Article{ptackova2026domain,
+  author  = {Pt{\'{a}}{\v{c}}kov{\'{a}}, L. and Outrata, M.},
+  journal = {{C}omputer {A}ided {G}eometric {D}esign},
+  title   = {Domain decomposition for mean curvature flow of surface polygonal meshes},
+  year    = {2026},
+  pages   = {102552},
+  doi     = {https://doi.org/10.1016/j.cagd.2026.102552},
+}
+
+
+
+-------------------------------
+
 @Unpublished{outrata2025multiprecision,
   author = {Outrata, M. and Szyld, D. B.},
   note   = {submitted},
