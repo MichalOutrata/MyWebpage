@@ -1,13 +1,4 @@
-@InProceedings{outrata2023onmras,
-  author    = {Gander, M. J. and Outrata, M.},
-  booktitle = {{D}omain {D}ecomposition {M}ethods in {S}cience and {E}ngineering {XXVII}},
-  title     = {On algebraic bounds for {POSM} and {MRAS}},
-  year      = {2023},
-  editor    = {Dost{\'{a}}l, Z. and Kozubek, T. and Klawonn, A. and Ulrich, L. and Pavarino, L. F. and {\v{S}}{\'{i}}stek, J. and Widlund, O. B.},
-  publisher = {Springer {N}ature, {S}witzerland},
-  series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
-  url       = {https://doi.org/10.1007/978-3-031-50769-4_46},
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Proceedings
 
 @InProceedings{outrata2022osmwdsts,
   author    = {Gander, M. J. and Outrata, M.},
@@ -19,8 +10,44 @@
   publisher = {Springer {B}erlin, {H}eidelberg},
   series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
   volume    = {145},
-  url       = {https://doi.org/10.1007/978-3-030-95025-5_50},
+  doi       = {10.1007/978-3-030-95025-5_50},
 }
+
+@InProceedings{outrata2023onmras,
+  author    = {Gander, M. J. and Outrata, M.},
+  booktitle = {{D}omain {D}ecomposition {M}ethods in {S}cience and {E}ngineering {XXVII}},
+  title     = {On algebraic bounds for {POSM} and {MRAS}},
+  year      = {2023},
+  editor    = {Dost{\'{a}}l, Z. and Kozubek, T. and Klawonn, A. and Ulrich, L. and Pavarino, L. F. and {\v{S}}{\'{i}}stek, J. and Widlund, O. B.},
+  publisher = {Springer {N}ature, {S}witzerland},
+  series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
+  doi       = {10.1007/978-3-031-50769-4_46},
+}
+
+@Article{outrata2026onrecent,
+  author  = {Outrata, M.},
+  journal = {Proceedings in {A}pplied {M}athematics and {M}echanics},
+  title   = {On Recent Advances of Spectral Analysis for Systems Arising From Fully-Implicit {RK} Methods},
+  year    = {2026},
+  number  = {1},
+  pages   = {e70082},
+  volume  = {26},
+  doi     = {10.1002/pamm.70082},
+}
+
+@InProceedings{outrata2026towards,
+  author    = {Lucero Lorca, J. P. and Outrata, M.},
+  booktitle = {{D}omain {D}ecomposition {M}ethods in {S}cience and {E}ngineering {XXIX}},
+  title     = {Towards modular {HPS} solvers},
+  year      = {2026},
+  editor    = {Antonietti, P. F. and Botti, M. and Brenner, S. and Ciaramella, G. and Kim, H. H. and Langer, U. and Vergara, C.},
+  publisher = {Springer {N}ature, {S}witzerland},
+  series    = {Lecture notes in {C}omputer {S}cience and {E}ngineering},
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Papers
 
 @Article{outrata2016cournot,
   author    = {Outrata, J. V. and Ferris, M. C. and {\v{C}}ervinka, M. and Outrata, M.},
@@ -31,7 +58,7 @@
   pages     = {387--402},
   volume    = {24},
   publisher = {Springer},
-  url       = {https://doi.org/10.1007/s11228-016-0377-4},
+  doi       = {10.1007/s11228-016-0377-4},
 }
 
 @Article{outrata2023IRKILAS,
@@ -40,7 +67,7 @@
   title   = {Spectral analysis of implicit 2-stage block {R}unge-{K}utta preconditioners},
   year    = {2023},
   issn    = {0024-3795},
-  doi     = {https://doi.org/10.1016/j.laa.2023.07.008},
+  doi     = {10.1016/j.laa.2023.07.008},
 }
 
 @Article{outrata2024pade,
@@ -51,7 +78,7 @@
   pages     = {319--341},
   volume    = {59},
   publisher = {{K}ent {s}tate {U}niversity},
-  url       = {https://doi.org/10.1553/etna_vol59s319},
+  doi       = {/10.1553/etna_vol59s319},
 }
 
 @Article{outrata2024irksstage,
@@ -76,37 +103,18 @@
   doi     = {10.1137/24M1677484},
 }
 
-@Article{outrata2026onrecent,
-  author  = {Outrata, M.},
-  journal = {Proceedings in {A}pplied {M}athematics and {M}echanics},
-  title   = {On Recent Advances of Spectral Analysis for Systems Arising From Fully-Implicit {RK} Methods},
-  year    = {2026},
-  number  = {1},
-  pages   = {e70082},
-  volume  = {26},
-  doi     = {https://doi.org/10.1002/pamm.70082},
-}
-
 @Article{ptackova2026domain,
   author  = {Pt{\'{a}}{\v{c}}kov{\'{a}}, L. and Outrata, M.},
   journal = {{C}omputer {A}ided {G}eometric {D}esign},
   title   = {Domain decomposition for mean curvature flow of surface polygonal meshes},
   year    = {2026},
   pages   = {102552},
-  doi     = {https://doi.org/10.1016/j.cagd.2026.102552},
+  doi     = {10.1016/j.cagd.2026.102552},
 }
 
 
 
--------------------------------
-
-@Unpublished{outrata2025multiprecision,
-  author = {Outrata, M. and Szyld, D. B.},
-  note   = {submitted},
-  title  = {Multiprecision computations with Schwarz methods},
-  year   = {2025},
-  url    = {https://arxiv.org/abs/2509.20937},
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% In preparation/submitted
 
 @Unpublished{outrata2024ham,
   author = {de Sturler, E. and Outrata, M.},
@@ -116,6 +124,27 @@
   url    = {https://michaloutrata.com/pdfs/preprints/2023_deSturlerOutrata_HAM.pdf},
 }
 
+@Unpublished{outrata2025multiprecision,
+  author = {Outrata, M. and Szyld, D. B.},
+  note   = {submitted},
+  title  = {Multiprecision computations with Schwarz methods},
+  year   = {2025},
+  archiveprefix = {arXiv},
+  eprint        = {2509.20937},
+}
+
+@Unpublished{outrata2026spectral,
+  author = {Lucero Lorca, J. P. and Mc{C}oid, C. and Outrata, M.},
+  note   = {submitted},
+  title  = {On spectral clustering in algebraic multigrid methods},
+  year   = {2026},
+  archiveprefix = {arXiv},
+  eprint        = {2511.12298},
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Thesis
 @PhdThesis{outrata2022phdthesis,
   author    = {Outrata, M.},
   school    = {University of {G}eneva},
