@@ -126,9 +126,9 @@
 
 @Unpublished{outrata2025multiprecision,
   author = {Outrata, M. and Szyld, D. B.},
-  note   = {submitted},
+  note   = {accepted in ETNA},
   title  = {Multiprecision computations with Schwarz methods},
-  year   = {2025},
+  year   = {2026},
   archiveprefix = {arXiv},
   eprint        = {2509.20937},
 }
@@ -141,6 +141,16 @@
   archiveprefix = {arXiv},
   eprint        = {2511.12298},
 }
+
+@Unpublished{outrata2026irkTAI,
+  author        = {Outrata, M. and Rani, A.},
+  note          = {submitted},
+  title         = {Spectral analysis of a class of IRK stage preconditioners for linear wave equations},
+  year          = {2026},
+  archiveprefix = {arXiv},
+  eprint        = {2609.34620},
+}
+
 
 
 
