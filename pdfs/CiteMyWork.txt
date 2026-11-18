@@ -112,6 +112,18 @@
   doi     = {10.1016/j.cagd.2026.102552},
 }
 
+@Article{outrata2026multiprecision,
+  author = {Outrata, M. and Szyld, D. B.},
+  journal   = {{ETNA}},
+  title  = {Multiprecision computations with {S}chwarz methods},
+  year   = {2026},
+  volume = {65},
+  year   = {2026},
+  pages  = {579--604},
+  doi    = {10.1553/etna_vol65s579}
+}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% In preparation/submitted
@@ -124,14 +136,6 @@
   url    = {https://michaloutrata.com/pdfs/preprints/2023_deSturlerOutrata_HAM.pdf},
 }
 
-@Unpublished{outrata2025multiprecision,
-  author = {Outrata, M. and Szyld, D. B.},
-  note   = {accepted in ETNA},
-  title  = {Multiprecision computations with Schwarz methods},
-  year   = {2026},
-  archiveprefix = {arXiv},
-  eprint        = {2509.20937},
-}
 
 @Unpublished{outrata2026spectral,
   author = {Lucero Lorca, J. P. and Mc{C}oid, C. and Outrata, M.},
@@ -145,7 +149,7 @@
 @Unpublished{outrata2026irkTAI,
   author        = {Outrata, M. and Rani, A.},
   note          = {submitted},
-  title         = {Spectral analysis of a class of IRK stage preconditioners for linear wave equations},
+  title         = {Spectral analysis of a class of {IRK} stage preconditioners for linear wave equations},
   year          = {2026},
   archiveprefix = {arXiv},
   eprint        = {2609.34620},
